@@ -1,5 +1,7 @@
 New Website
 
+
+
 Create by LiuXing
 
 
@@ -14,10 +16,23 @@ Header，Banner，Section-One完工
 
 
 
+
+
+
+
+
+
+
 2018.7.10：
 完善Navbar，Section-One对手机的兼容
 
 Section-Two整体设计完工，但未实现对手机的兼容
+
+
+
+
+
+
 
 
 
