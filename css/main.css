@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600,400,300';@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:400';
+
+html {
+    font: normal 16px / 26px "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #fff;
+    color: #888888;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+    background: transparent;
+}
+
+a:active,a:hover {
+    outline: 0;
+}
+.swiper-container{
+    height: 540px;
+    
+}
+
+.section-one{
+  margin-left: 100px;
+}
+.section-two{
+   
+    padding-top: 200px;
+
+}
+
+.section-two-block{
+margin-top: 50px;
+margin-left: 100px;
+}
+.section-two-item-icon{
+padding-bottom: 30px;
+}
+.section-one-item{
+  
+}
+.section-two-item{
+   width: 180px;
+   margin-right: 33px;
+   cursor: pointer;
+
+}
+
+.section-two-item:hover{
+    background-color: rgba(0,0,);
+}
+
+.section-text-block{
+	margin-top: 50px;
+}
+
+.section-text-tittle{
+	font-size: 2rem !important;
+}
+
+.section-text-little-tittle{
+	font-size: 1.2rem !important;
+}
+
+.section-item-text{
+	
+	margin-top: 100px;
+	margin-left: 30px;
+}
+.section-item-in-text{
+	font-size: 1rem !important;
+	margin-top: 30px;
+}
+.section-item-button{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.fa-5{
+    font-size: 7rem;
+}
+.rounded-left{
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+}
+.rounded-right{
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+}
