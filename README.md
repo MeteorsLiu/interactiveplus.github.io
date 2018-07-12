@@ -28,3 +28,4 @@ Code Review by Windy
 - [x] \(index.html\) Code-Review \(确保代码缩进无误\)
 - [x] \(index.html\) 页面加载速度优化\(CSS/JS Preload\)
 - [x] \(index.html\) 修复 Section1 背景图片在部分手机上显示超出页面范围的Bug
+- [x] \(index.html\) 设置导航栏固定在页面上方

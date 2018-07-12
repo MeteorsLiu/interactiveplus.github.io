@@ -11,6 +11,10 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body.has-navbar-top{
+	min-height: 75rem;
+	padding-top: 4.5rem;
+}
 
 a {
     background: transparent;
