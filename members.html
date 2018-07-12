@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	 <meta charset="UTF-8">
+	<head>
+		 <meta charset="UTF-8">
         <!-- Declaring Important Preload CSS Files -->
+        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css">
@@ -10,13 +11,14 @@
         <!-- Finish Declaring Preload CSS Files -->
         <!-- Delcaring Important Preload JS Files -->
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
+        <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js" />
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js" />
         <link rel="preload" as="script" href="js/main.js" />
         <!-- Finish Declaring Preload JS Files -->
         
         <!-- CSS Resource Start -->
-        <link rel="icon" href="static/favicon.ico" type="image/ico"/>
         <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
         <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
@@ -25,20 +27,24 @@
         
         <!-- JS Resource Start -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <!-- JS Resource Start -->
+        <!-- JS Resource End -->
+        <!-- Favicon Declaration Start -->
+        <link rel="icon" href="static/favicon.ico" type="image/ico"/>
+        <!-- Favicon Declaration End -->
         
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="keywords" content="形随意动, 形随意动介绍, 青少年编程, 团队, 开源" />
         <meta name="description" content="形随意动是求真, 务实的新纪元青少年编程团队. 形随意动致力于以符合时代的方法传递出领先于时代的精神. 形随意动是一个以云服务为核心的青少年编程兴趣组织, 专注于开源编程. 我们希望以以符合时代的方法传递出领先于时代的精神,且通过科技来推进社会发展." />
         <title>形随意动 - 科技改变未来</title>
-</head>
-<body class="has-navbar-top">
+	</head>
+	<body class="has-navbar-top">
         <!--[if lt IE 9]>
             <div class="alert alert-warning flex" role="alert">
           你的浏览器太久了，请升级再访问本网站 
@@ -95,7 +101,7 @@
          <!-- Section Start -->
          <div class="section-member">
          	<div class="container">
-               <h1 class="section-text-tittle" >成员</h1>
+               <h1 class="section-text-tittle">成员</h1>
                <h2 class="section-text-little-tittle">经历2次重组后, 形随意动团队变得更加精炼和有效率</h2>
                <hr>
                <div class="pt-5">
@@ -109,10 +115,10 @@
                	  		<p class="member-intro">PHP,VB,C++入门,Arduino,Linux运维</p>
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -129,10 +135,10 @@
                	  		<p class="member-intro pb-4">VB, Arduino, C++, Idea</p>
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -148,10 +154,10 @@
                	  		<p class="member-intro">PHP入门, 前端入门, 51单片机入门, VB入门</p>
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -168,10 +174,10 @@
                	  		<p class="member-intro">C#, VB, XAML, Arduino, 树莓派, Linux运维入门</p>
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -189,10 +195,10 @@
                	  		<p class="member-intro pb-4">C++入门, 黑客技术入门</p>
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -211,10 +217,10 @@
                	  		<!-- 特殊的Padding，特殊的照顾 -->
                         <div class="member-icon">
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-github fa-2"></i>
+                        		<i class="fa fa-github fa-lg"></i>
                         	</a>
                         	<a href="" class="text-dark ml-1">
-                        		<i class="fa fa-qq fa-1"></i>
+                        		<i class="fa fa-qq fa-lg"></i>
                             </a>
                         </div>
                         </div>
@@ -226,10 +232,10 @@
             </div>
            </div>
          </div>
-         <!-- Footer Start -->
-        <div class="footer ">
+        <!-- Footer Start -->
+		<div class="footer">
             <div class="container-fluid bg-light">
-                <div class="row d-flex justify-content-center footer-text ">
+                <div class="row d-flex justify-content-center footer-text">
                     <div class="col-md-3">
                         <ul class="">
                             <p class="section-item-in-text">友情链接</p>
@@ -280,14 +286,12 @@
                         <span class="text-center" >Powered by 形随意动</span>
                     </div>
                     <div class="col-sm-2">
-                        <span class="text-center">© 2013-2018</span>
+                        <span class="text-center">&copy; 2013-2018</span>
                     </div>
                     <div class="col-sm-2">All Rights Reserved</div>
                 </div>
             </div>
-
         </div>
-
-     <!-- Footer End -->
-</body>
+    	<!-- Footer End -->
+	</body>
 </html>
