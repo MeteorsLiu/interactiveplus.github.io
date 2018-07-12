@@ -11,17 +11,16 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body.has-navbar-top{
+body .has-navbar-top{
 	min-height: 75rem;
 	padding-top: 4.5rem;
 }
 
-a {
-    background: transparent;
+ ul li{
+    list-style-type: none;
 }
-
-a:active,a:hover {
-    outline: 0;
+a:hover{
+    text-decoration: none;
 }
 .swiper-container{
     height: 540px;
@@ -42,7 +41,7 @@ margin-top: 50px;
 margin-left: 100px;
 }
 .section-two-item-icon{
-padding-bottom: 30px;
+padding-bottom: 10px;
 }
 .section-one-item{
   
@@ -55,7 +54,7 @@ padding-bottom: 30px;
 }
 
 .section-two-item:hover{
-    background-color: rgba(0,0,);
+    background-color: rgba();
 }
 
 .section-text-block{
@@ -84,10 +83,46 @@ padding-bottom: 30px;
 	margin-left: 30px;
 	margin-top: 20px;
 }
+.footer{
+    margin-top: 100px;
+    
 
+}
+
+.section-member{
+    margin-top: 100px;
+}
+
+
+.footer-text{
+    padding-top: 50px;
+
+
+}
+.member-intro{
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    color: #8a9399;
+
+
+}
+
+.member-name{
+    color: #363b40;
+}
+
+.member-github{
+
+}
 .fa-5{
     font-size: 7rem;
 }
 .fa-4{
     font-size: 5rem;
+}
+.fa-2{
+    font-size: 2.3rem;
+}
+.fa-1{
+    font-size: 1.9rem;
 }
