@@ -29,3 +29,11 @@ Code Review by Windy
 - [x] \(index.html\) 页面加载速度优化\(CSS/JS Preload\)
 - [x] \(index.html\) 修复 Section1 背景图片在部分手机上显示超出页面范围的Bug
 - [x] \(index.html\) 设置导航栏固定在页面上方
+
+
+---
+
+
+2018.7.13
+- [x] \(index.html\)  Footer完工和完成对手机的兼容
+- [x] \(member.html\)  成员页面正式开始设计，初步设计完成
