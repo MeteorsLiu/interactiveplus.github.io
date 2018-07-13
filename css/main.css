@@ -11,7 +11,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body .has-navbar-top{
+body.has-navbar-top{
 	min-height: 75rem;
 	padding-top: 4.5rem;
 }
@@ -24,11 +24,6 @@ a:hover{
 }
 .swiper-container{
     height: 540px;
-    
-}
-
-.section-one{
-  margin-left: 100px;
 }
 .section-two{
    
@@ -36,21 +31,14 @@ a:hover{
 
 }
 
-.section-two-block{
-margin-top: 50px;
-margin-left: 100px;
-}
 .section-two-item-icon{
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-.section-one-item{
-  
-}
+
 .section-two-item{
     margin-top: 3rem;
     margin-right: 3rem;
-   cursor: pointer;
-
+    cursor: pointer;
 }
 
 .section-two-item:hover{
@@ -89,10 +77,6 @@ padding-bottom: 10px;
 
 }
 
-.section-member{
-    margin-top: 100px;
-}
-
 
 .footer-text{
     padding-top: 50px;
@@ -110,10 +94,6 @@ padding-bottom: 10px;
 .member-name{
     color: #363b40;
 }
-
-.member-github{
-
-}
 .fa-5{
     font-size: 7rem;
 }
@@ -125,4 +105,9 @@ padding-bottom: 10px;
 }
 .fa-1{
     font-size: 1.9rem;
+}
+.home-slide-container{
+    padding:0;
+    margin:0;
+    height: 540px;
 }

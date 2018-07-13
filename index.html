@@ -99,31 +99,33 @@
         
         <!-- Banner Start -->
         <script>
-
-            //如果不用ready，此处会出现Swiper is not defined 错误
             $(document).ready(function(){
-                var mySwiper = new Swiper ('#banner',
-                
-                {
-                    autoplay: true,
-                    loop: true,
-                    navigation: {
-                        nextEl: '#Banner-Button-Next',
-                        prevEl: '#Banner-Button-Prev',
-                    },
+                var mySwiper = new Swiper (
+                    '#banner',
+                    {
+                        autoplay: true,
+                        loop: true,
+                        navigation: {
+                            nextEl: '#Banner-Button-Next',
+                            prevEl: '#Banner-Button-Prev',
+                        },
+                    }
+                );
+                if(mySwiper.slides.length <= 1){
+                    mySwiper.destroy();
                 }
-            );
-            if(mySwiper.slides.length <= 1){
-                mySwiper.destroy();
-            }
             });
         </script>
         <div class="swiper-container" id="banner">
-            <div class="swiper-wrapper">
-               <div class="swiper-slide"></div>
-               <div class="swiper-slide"></div>
-               <div class="swiper-slide"></div>
-             </div>
+            <div class="swiper-wrapper" id="swipeContentHolder">
+               <script src="dynamicData/indexslides.js"></script>
+               <script src="js/homePageSlidesLoad.js"></script>
+               <script>
+                    $(document).ready(function(){
+                        loadIndexSlides("#swipeContentHolder","cn");
+                    });
+               </script>
+            </div>
             <div class="swiper-button-prev" id="Banner-Button-Prev"></div>
             <div class="swiper-button-next" id="Banner-Button-Next"></div>
         </div>
@@ -190,23 +192,7 @@
         <!-- Footer Start -->
         <div class="footer">
             <script>
-				$(document).ready(function(){
-					$.ajax(
-						{
-							url: "common_footer.html",
-							dataType: "html",
-							data: null,
-							type: "GET",
-							async: true
-						}
-					)
-					.done(function(data, textStatus, jqXHR ){
-						$(".footer").add(data);
-					})
-					.fail(function(jqXHR, textStatus, errorThrown){
-						console.log("Footer failed to load: " + textStatus);
-					});
-				});
+				prependSelectorWithRemoteContent(".footer","common_footer.html");
 			</script>
         </div>
 
