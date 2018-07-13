@@ -26,6 +26,9 @@ a:hover{
     height: 540px;
 }
 
+
+
+
 .section-text{
     padding-top: 50px;
 }
@@ -35,15 +38,21 @@ a:hover{
 
 }
 .section-news{
-    width: 100%;
+    margin-bottom: 50px;
+}
+.section-news-ul{
+   list-style-position: outside;
+   
 }
 .section-news-text{
-    color: #fff;
+    color: #8a9399;
 
 }
+
 .section-news-text:hover{
-    color: #fff;
-     text-decoration: underline;
+    color: #363b40;
+    transition: color 0.5s;
+    text-decoration: underline;
 }
 .section-two-item-icon{
     padding-bottom: 10px;
