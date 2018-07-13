@@ -36,8 +36,6 @@ a:hover{
 }
 .section-news{
     width: 100%;
-    background: url('//www.interactiveplus.org/static/sectionNewsBG.jpg') no-repeat;
-    background-size: cover;
 }
 .section-news-text{
     color: #fff;
