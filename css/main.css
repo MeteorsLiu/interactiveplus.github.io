@@ -25,6 +25,10 @@ a:hover{
 .swiper-container{
     height: 540px;
 }
+
+.section-text{
+    margin-top: 50px;
+}
 .section-two{
    
     padding-top: 200px;
