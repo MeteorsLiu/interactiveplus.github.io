@@ -42,16 +42,16 @@ a:hover{
 }
 .section-news-ul{
    list-style-position: outside;
-   
+
 }
 .section-news-text{
-    color: #8a9399;
+    color: #363b40;
+    transition: color 0.5s;
 
 }
 
 .section-news-text:hover{
-    color: #363b40;
-    transition: color 0.5s;
+    color: #8a9399;
     text-decoration: underline;
 }
 .section-two-item-icon{
