@@ -51,3 +51,13 @@ Code Review by Windy
 - [x] \(members.html\) 动态加载成员内容完毕
 - [x] \(index.html\) 动态加载首页Slides完毕
 - [ ] \(newsdisplay.html\) 动态新闻页面加载
+
+
+---
+
+
+2018.7.12 流星
+- [x] \(index.html\)  完成新闻版块
+
+
+
