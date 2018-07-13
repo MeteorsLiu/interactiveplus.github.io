@@ -52,7 +52,7 @@ var XSYD_MemberInfos = {
                 skills: "C#, Arduino, Linux运维"
             },
             en:{
-                displayName: "Trick Or Treat",
+                displayName: "Dimo Jang",
                 role: "Member",
                 skills: "C#, Arduino, Linux Operation"
             },
