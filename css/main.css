@@ -34,7 +34,17 @@ a:hover{
     padding-top: 200px;
 
 }
+.section-news{
+    width: 100%;
+    background: url('static/sectionNewsBG.jpg') no-repeat;
+}
+.section-news-text{
+    color: #000;
 
+}
+.section-news-text:hover{
+     text-decoration: underline;
+}
 .section-two-item-icon{
     padding-bottom: 10px;
 }
