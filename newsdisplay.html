@@ -143,7 +143,7 @@
 
 					</div>
 				</div>
-				<div class="container-fluid" style="display:none" id="NewsContent404Box">
+				<div class="container-fluid newsdisplay-news404box" style="display:none" id="NewsContent404Box">
 					<p class="lead text-center">错误发生了!</p>
 					<p class="text-center">在读取您的文章时发生了一个错误, 可能是因为ArticleID错误导致的, 请检查后联系网站管理员.</p>
 				</div>
@@ -161,7 +161,10 @@
 						var articleID = parseInt(articleIDString);
 						if(ArticleStillLoading){
 							var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox","#NewsAuthorBox",articleID,"cn")
-						}
+                            if(!ArticleSuccessfulLoaded){
+                                $("#NewsContent404Box").show();
+                            }
+                        }
 					});
 				</script>
 			</div>

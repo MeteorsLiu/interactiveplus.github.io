@@ -25,6 +25,9 @@ a:hover{
     list-style-type:none;
 }
 
+.newsdisplay-news404box{
+    padding-top:20px;
+}
 
 
 .section-text{
@@ -50,18 +53,10 @@ a:hover{
     color: #8a9399;
     text-decoration: underline;
 }
-.section-two-item-icon{
-    padding-bottom: 10px;
-}
 
 .section-two-item{
     margin-top: 3rem;
-    margin-right: 3rem;
     cursor: pointer;
-}
-
-.section-two-item:hover{
-    background-color: rgba();
 }
 
 .section-text-block{

@@ -64,7 +64,6 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
         '</div>' + 
     '</div>';
     $(NewsAuthorSelector).append(ArticleAuthorDisplayCode);
-    console.log(ArticleAuthorDisplayCode);
     appendSelectorWithRemoteContent(NewsContentSelector,mArticleURL);
     return true;
 }
