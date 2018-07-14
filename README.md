@@ -50,7 +50,7 @@ Code Review by Windy
 - [x] \(ALL\) 动态加载Footbar完毕
 - [x] \(members.html\) 动态加载成员内容完毕
 - [x] \(index.html\) 动态加载首页Slides完毕
-- [ ] \(newsdisplay.html\) 动态新闻页面加载
+- [x] \(newsdisplay.html\) 动态新闻页面加载\(Implemented 2018-7-14\)
 
 
 ---
@@ -60,4 +60,8 @@ Code Review by Windy
 - [x] \(index.html\)  完成新闻版块
 
 
-
+--- 
+2018.7.14 秋风
+- [x] \(newsdisplay.html\) 动态新闻加载完毕
+- [x] \(index.html\) 动态新闻列表加载
+- [x] \(members.html\) 部分成员信息更改
