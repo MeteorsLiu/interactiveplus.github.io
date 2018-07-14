@@ -33,9 +33,7 @@ a:hover{
     padding-top: 50px;
 }
 .section-two{
-   
-    padding-top: 200px;
-
+    padding-top: 50px;
 }
 .section-news{
     margin-bottom: 100px;
@@ -137,4 +135,7 @@ a:hover{
 .newsdisplay-newscontent{
     margin:0;
     padding:0;
+}
+.common-footer-lastline{
+    padding-bottom: 15px;
 }
