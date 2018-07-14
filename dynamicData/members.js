@@ -14,7 +14,7 @@ var XSYD_MemberInfos = {
             },
             github: "ToiletCommander",
             qq: "1745500559",
-            portrait: "1745500559.png"
+            portrait: "1745500559.jpg"
         },
         {
             //AuthorID: 1,
@@ -30,7 +30,7 @@ var XSYD_MemberInfos = {
             },
             github: null,
             qq: "2284938880",
-            portrait: "2284938880.png"
+            portrait: "2284938880.jpg"
         },
         {
             //AuthorID: 2,
@@ -46,7 +46,7 @@ var XSYD_MemberInfos = {
             },
             github: "cmjang",
             qq: "1924286463",
-            portrait: "1924286463.png"
+            portrait: "1924286463.jpg"
         },
         {
             //AuthorID: 3,
@@ -62,7 +62,7 @@ var XSYD_MemberInfos = {
             },
             github: "dimojang",
             qq: "2529874419",
-            portrait: "2529874419.png"
+            portrait: "2529874419.jpg"
         },
         {
             //AuthorID: 4,
@@ -78,7 +78,7 @@ var XSYD_MemberInfos = {
             },
             github: "Caoblocks",
             qq: "318515692",
-            portrait: "318515692.png"
+            portrait: "318515692.jpg"
         },
         {
             //AuthorID: 5,
@@ -94,7 +94,7 @@ var XSYD_MemberInfos = {
             },
             github: "GuoHaoLan",
             qq: "1156521060",
-            portrait: "1156521060.png"
+            portrait: "1156521060.jpg"
         },
         {
             //AuthorID: 6,
@@ -110,7 +110,7 @@ var XSYD_MemberInfos = {
             },
             github: "EquationWalker",
             qq: "1579664489",
-            portrait: "1579664489.png"
+            portrait: "1579664489.jpg"
         },
         {
             //AuthorID: 7,
@@ -126,7 +126,7 @@ var XSYD_MemberInfos = {
             },
             github: null,
             qq: "2716790565",
-            portrait: "2716790565.png"
+            portrait: "2716790565.jpg"
         },
         {
             //AuthorID: 8,
@@ -142,7 +142,7 @@ var XSYD_MemberInfos = {
             },
             github: null,
             qq: "1664147500",
-            portrait: "1664147500.png"
+            portrait: "1664147500.jpg"
         },
         {
             //AuthorID: 9,
@@ -158,7 +158,7 @@ var XSYD_MemberInfos = {
             },
             github: "wi1dcard",
             qq: "122078472",
-            portrait: "122078472.png"
+            portrait: "122078472.jpg"
         },
         {
             //AuthorID: 10,
@@ -174,7 +174,7 @@ var XSYD_MemberInfos = {
             },
             github: "ansiiw",
             qq: "1294297705",
-            portrait: "1294297705.png"
+            portrait: "1294297705.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
