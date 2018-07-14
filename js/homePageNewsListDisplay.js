@@ -6,7 +6,7 @@ function loadSelectorsWithNews(NewsSectionSelector,Selectors,Language,Limit = -1
     }
     var CurrentContainer = 0;
     var OutputCount = 0;
-    for(var i=XSYD_News.newsList.length-1;i>=0;i++){
+    for(var i=XSYD_News.newsList.length-1;i>=0;i--){
         /*
             <li class="pt-2">
                 <i class="fa fa-angle-right pr-2"></i>
