@@ -15,12 +15,12 @@ function loadIndexSlides(Selector, Language){
                 MoreInfoBtnText = "Learn More";
                 break;
         }
-        if(ThisSlideLangInfo === null){
+        if(ThisSlideLangInfo === null || ThisSlideLangInfo === undefined){
             console.log("Empty Content, exiting");
             continue;
         }
         var ButtonCodes = "";
-        if((!ThisSlideLangInfo.disableArticleButton) && ThisSlideLangInfo.articleIDRelated !== null){
+        if((!ThisSlideLangInfo.disableArticleButton) && ThisSlideLangInfo.articleIDRelated !== null ** ThisSlideLangInfo.articleIDRelated != undefined){
             ButtonCodes += '<a class="btn btn-primary" role="button" href="' + XSYD_WebSettings.newsPage + ThisSlideLangInfo.articleIDRelated + '" target="_blank">' + MoreInfoBtnText + '</a>';
         }
         if(ThisSlideLangInfo.customButton){
@@ -28,7 +28,7 @@ function loadIndexSlides(Selector, Language){
         }
 
         var BackgroundCodes = "";
-        if(ThisSlide.backgroundImage !== undefined && ThisSlide.backgroundImage !== null){
+        if(ThisSlide.backgroundImage !== undefined && ThisSlide.backgroundImage !== null && ThisSlide.backgroundImage !== undefined){
             BackgroundCodes = '<div class="swiper-slide" style="background-image: url(\'' + ThisSlide.backgroundImage + '\');background-size:cover;">';
         }else{
             BackgroundCodes = '<div class="swiper-slide">';

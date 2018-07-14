@@ -1,6 +1,7 @@
 var XSYD_MemberInfos = {
     memberlist: [
         {
+            //AuthorID: 0,
             cn:{
                 displayName: "老秋风",
                 role: "团队负责人",
@@ -16,6 +17,7 @@ var XSYD_MemberInfos = {
             portrait: "1745500559.png"
         },
         {
+            //AuthorID: 1,
             cn:{
                 displayName: "Wey",
                 role: "成员",
@@ -31,6 +33,7 @@ var XSYD_MemberInfos = {
             portrait: "2284938880.png"
         },
         {
+            //AuthorID: 2,
             cn:{
                 displayName: "沉默",
                 role: "成员",
@@ -46,6 +49,7 @@ var XSYD_MemberInfos = {
             portrait: "1924286463.png"
         },
         {
+            //AuthorID: 3,
             cn:{
                 displayName: "糖糖",
                 role: "成员",
@@ -61,6 +65,7 @@ var XSYD_MemberInfos = {
             portrait: "2529874419.png"
         },
         {
+            //AuthorID: 4,
             cn:{
                 displayName: "小小白",
                 role: "成员",
@@ -76,6 +81,7 @@ var XSYD_MemberInfos = {
             portrait: "318515692.png"
         },
         {
+            //AuthorID: 5,
             cn:{
                 displayName: "流星",
                 role: "成员",
@@ -91,6 +97,7 @@ var XSYD_MemberInfos = {
             portrait: "1156521060.png"
         },
         {
+            //AuthorID: 6,
             cn:{
                 displayName: "幻杀",
                 role: "成员",
@@ -106,21 +113,23 @@ var XSYD_MemberInfos = {
             portrait: "1579664489.png"
         },
         {
+            //AuthorID: 7,
             cn:{
                 displayName: "Max",
                 role: "成员",
-                skills: "C++, OIER"
+                skills: "C++, OIER, 嵌入式"
             },
             en:{
                 displayName: "Max",
                 role: "Member",
-                skills: "C++, OIER"
+                skills: "C++, OIER, Embedded"
             },
             github: null,
             qq: "2716790565",
             portrait: "2716790565.png"
         },
         {
+            //AuthorID: 8,
             cn:{
                 displayName: "Raku洛",
                 role: "成员",
@@ -136,6 +145,7 @@ var XSYD_MemberInfos = {
             portrait: "1664147500.png"
         },
         {
+            //AuthorID: 9,
             cn:{
                 displayName: "船歌",
                 role: "成员",
@@ -151,6 +161,7 @@ var XSYD_MemberInfos = {
             portrait: "122078472.png"
         },
         {
+            //AuthorID: 10,
             cn:{
                 displayName: "葫芦娃",
                 role: "成员",

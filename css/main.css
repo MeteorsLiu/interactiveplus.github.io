@@ -41,13 +41,13 @@ a:hover{
     margin-bottom: 100px;
 }
 .section-news-ul{
-   list-style-position: outside;
-
+   list-style-type: none;
+   margin:0;
+   padding:0;
 }
 .section-news-text{
     color: #363b40;
     transition: color 0.5s;
-
 }
 
 .section-news-text:hover{
@@ -130,7 +130,11 @@ a:hover{
     font-size: 1.9rem;
 }
 .home-slide-container{
-    padding:0;
+    padding:10px;
     margin:0;
     height: 540px;
+}
+.newsdisplay-newscontent{
+    margin:0;
+    padding:0;
 }

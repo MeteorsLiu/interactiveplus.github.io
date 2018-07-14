@@ -45,7 +45,7 @@
         <meta name="description" content="形随意动是求真, 务实的新纪元青少年编程团队. 形随意动致力于以符合时代的方法传递出领先于时代的精神. 形随意动是一个以云服务为核心的青少年编程兴趣组织, 专注于开源编程. 我们希望以以符合时代的方法传递出领先于时代的精神,且通过科技来推进社会发展." />
         <title>形随意动 - 科技改变未来</title>
     </head>
-    <body class="has-navbar-top">
+    <body>
     
         <!--[if lt IE 9]>
             <div class="alert alert-warning flex" role="alert">
@@ -57,9 +57,9 @@
         <![endif]-->
         
         <!-- Header Start -->
-        <nav class="navbar-light navbar-expand-lg bg-light navbar fixed-top" id="navbar">
+        <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
            <div class="container">
-                <a class="navbar-brand" href="index.html" style="margin-right: 3.5rem !important;" >
+                <a class="navbar-brand mr-3" href="javascript:void(0);">
                     <img class="d-inline-block align-top" src="static/favicon.png"  width="32" height="32" alt="">
                     <span>形随意动</span>
                 </a>
@@ -75,14 +75,14 @@
                        <li class="nav-item">
                          <a class="nav-link nav-text" href="team.html" >团队介绍</a>
                        </li>
-                       <li class="nav-item ">
+                       <li class="nav-item">
                           <a class="nav-link nav-text" href="members.html" >成员</a>
                        </li>
                        <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">合作</a>
+                        <a class="nav-link nav-text" href="cooperation.html">合作</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus/">开源</a>
+                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">开源</a>
                        </li>
                     </ul>
                     <span class="navbar-text dropdown " >
@@ -107,8 +107,8 @@
                         loop: true,
                         navigation: {
                             nextEl: '#Banner-Button-Next',
-                            prevEl: '#Banner-Button-Prev',
-                        },
+                            prevEl: '#Banner-Button-Prev'
+                        }
                     }
                 );
                 if(mySwiper.slides.length <= 1){
@@ -126,18 +126,43 @@
                     });
                </script>
             </div>
-            <div class="swiper-button-prev" id="Banner-Button-Prev"></div>
-            <div class="swiper-button-next" id="Banner-Button-Next"></div>
+            <div class="swiper-button-prev d-none d-md-block" id="Banner-Button-Prev"></div>
+            <div class="swiper-button-next d-none d-md-block" id="Banner-Button-Next"></div>
         </div>
         <!-- Banner End -->
         
         <!-- Section Text Start -->
         <div class="section-text" id="section">
             <div class="container">
+                <div class="section-news" id="NewsBox">
+                    <h1 class="text-center section-text-tittle">新闻动态</h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="section-news-ul" id="NewsUL1">
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="section-news-ul" id="NewsUL2">
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="section-news-ul" id="NewsUL3">
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="section-news-ul" id="NewsUL4">
+                            </ul>
+                        </div>
 
-               
-                 <!-- Load News Block -->
-                <script type="text/javascript"> prependSelectorWithRemoteContent('.section-text .container','newsdisplay.html'); </script>
+                    </div>
+                    <script src="dynamicData/newsList.js"></script>
+                    <script src="js/homePageNewsListDisplay.js"></script>
+                    <script>
+                        $(document).ready(function(){
+                            loadSelectorsWithNews("#NewsBox",["#NewsUL1","#NewsUL2","#NewsUL3","#NewsUL4"],"cn",20);
+                        });
+                    </script>
+                </div>
 
                 <div class="section-one">
                     <h1 class="text-center section-text-tittle">技术驾驭<span class="text-primary">创新</span>, 数字驱动<span class="text-primary">转型</span></h1>
@@ -203,6 +228,6 @@
 			</script>
         </div>
 
-     <!-- Footer End -->
+        <!-- Footer End -->
     </body>
 </html>
