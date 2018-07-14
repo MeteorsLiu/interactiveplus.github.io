@@ -65,3 +65,9 @@ Code Review by Windy
 - [x] \(newsdisplay.html\) 动态新闻加载完毕
 - [x] \(index.html\) 动态新闻列表加载
 - [x] \(members.html\) 部分成员信息更改
+
+---
+2018.7.15 秋风
+- [x] \(common_footer.html\) 完成底部Footer内容
+- [x] \(cooperation.html\) 完成合作页面
+- [x] \(js\homePageNewsListDisplay.js\) 设置新闻列表加载顺序为从最新到最旧
