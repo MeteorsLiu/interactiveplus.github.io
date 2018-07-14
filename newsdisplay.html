@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		 <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
+        
         <!-- Declaring Important Preload CSS Files -->
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
@@ -42,9 +43,10 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="keywords" content="形随意动, 形随意动介绍, 青少年编程, 团队, 开源" />
         <meta name="description" content="形随意动是求真, 务实的新纪元青少年编程团队. 形随意动致力于以符合时代的方法传递出领先于时代的精神. 形随意动是一个以云服务为核心的青少年编程兴趣组织, 专注于开源编程. 我们希望以以符合时代的方法传递出领先于时代的精神,且通过科技来推进社会发展." />
-        <title>形随意动 - 成员</title>
-	</head>
-	<body>
+        <title>形随意动 - 科技改变未来</title>
+    </head>
+    <body>
+    
         <!--[if lt IE 9]>
             <div class="alert alert-warning flex" role="alert">
           你的浏览器太久了，请升级再访问本网站 
@@ -55,13 +57,10 @@
         <![endif]-->
         
         <!-- Header Start -->
-
-
-        <!-- Header Start -->
-        <nav class="navbar navbar-light navbar-expand-lg bg-light navbar" id="navbar">
+        <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
            <div class="container">
                 <a class="navbar-brand mr-3" href="index.html">
-                    <img class="d-inline-block align-top" src="https://www.interactiveplus.org/favicon.png"  width="32" height="32" alt="">
+                    <img class="d-inline-block align-top" src="static/favicon.png"  width="32" height="32" alt="">
                     <span>形随意动</span>
                 </a>
                 
@@ -76,15 +75,15 @@
                        <li class="nav-item">
                          <a class="nav-link nav-text" href="team.html" >团队介绍</a>
                        </li>
-                       <li class="nav-item active">
-                          <a class="nav-link nav-text" href="javascript:void(0);">成员</a>
+                       <li class="nav-item">
+                          <a class="nav-link nav-text" href="members.html" >成员</a>
                        </li>
                        <li class="nav-item">
                         <a class="nav-link nav-text" href="cooperation.html">合作</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus/" target="_blank">开源</a>
-                       </li>
+                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">开源</a>
+					   </li>
                     </ul>
                     <span class="navbar-text dropdown " >
                         <button class="btn btn-outline-primary dropdown-toggle" id="ChooseLanguage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">语言</button>
@@ -96,33 +95,86 @@
                 </div>
             </div>
         </nav>
-        <!-- Header End -->
-        
-        <!-- Section Start -->
-        <div class="section-member">
-         	<div class="container">
-                <h1 class="section-text-tittle">成员</h1>
-                <h2 class="section-text-little-tittle">经历2次重组后, 形随意动团队变得更加精炼和有效率</h2>
-                <hr />
-                    <div class="row" id="MemberDisplayRow">
-                            <script src="dynamicData/members.js"></script>
-                            <script src="js/memberDynamicDisplay.js"></script>
-                            <script>
-                                $(document).ready(function(){
-                                    dynamicDisplayMembers("#MemberDisplayRow","cn");
-                                })
-                            </script>
-                    </div>
-                </div>
-            </div>
+		<!-- Header End -->
+
+		<!-- News TitleBox Area Start -->
+		<div class="container-fluid bg-info" id="NewsTitleBox" style="overflow:hidden">
+			<div class="container">
+				<!-- PC/Tablet Display Start -->
+				<div class="row d-none d-md-block">
+					<div class="col-md-6">
+						<h1>新闻中心</h1>
+						<p>在这里, 了解关于互联网的一点一滴</p>
+					</div>
+					<div class="col-md-6" id="NewsListBox">
+						<p class="lead mt-3 mb-1">近期要闻</h3>
+						<ul class="section-news-ul" id="NewsUL1">
+
+						</ul>
+						<script src="dynamicData/newsList.js"></script>
+						<script src="js/homePageNewsListDisplay.js"></script>
+						<script>
+							$(document).ready(function(){
+								loadSelectorsWithNews("#NewsListBox",["#NewsUL1"],"cn",5);
+							});
+						</script>
+					</div>
+				</div>
+				<!-- PC/Tablet Display Start -->
+				<!-- Mobile Title Display Start -->
+				<div class="row d-block d-md-none">
+					<h1 class="mt-4 mb-4">新闻中心</h1>
+					<p>在这里, 了解关于互联网的一点一滴</p>
+				</div>
+				<!-- Mobile Title Display End -->
+			</div>
         </div>
-        <!-- Section End -->
-        <!-- Footer Start -->
-		<div class="footer">
-            <script>
-                prependSelectorWithRemoteContent(".footer","common_footer.html");
-            </script>
-        </div>
-    	<!-- Footer End -->
+        <!-- NewsTitleBox Area End -->
+
+        <!-- News Area Start -->
+		<div class="container" id="NewsDisplayOutsideBox">
+			<!-- News Content Area Start -->
+			<div class="container-fluid newsdisplay-newscontent" id="NewsDisplayBox">
+				<div class="row">
+					<div class="col-md-9" id="NewsContentBox">
+
+					</div>
+					<div class="col-md-3" id="NewsAuthorBox">
+
+					</div>
+				</div>
+				<div class="container-fluid" style="display:none" id="NewsContent404Box">
+					<p class="lead text-center">错误发生了!</p>
+					<p class="text-center">在读取您的文章时发生了一个错误, 可能是因为ArticleID错误导致的, 请检查后联系网站管理员.</p>
+				</div>
+				<script src="dynamicData/members.js"></script>
+				<script src="dynamicData/newsList.js"></script>
+				<script src="js/newsDisplayLoading.js"></script>
+				<script>
+					$(document).ready(function(){
+						var ArticleStillLoading = true;
+						var articleIDString = getGETParam("id");
+						if(articleIDString === null || articleIDString === undefined){
+							$("#NewsContent404Box").show();
+							ArticleStillLoading = false;
+						}
+						var articleID = parseInt(articleIDString);
+						if(ArticleStillLoading){
+							var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox","#NewsAuthorBox",articleID,"cn")
+						}
+					});
+				</script>
+			</div>
+			<!-- News Content Area End -->
+		</div>
+		<!-- News Area End -->
+
+		<!-- Footer Start -->
+        <div class="footer">
+				<script>
+					prependSelectorWithRemoteContent(".footer","common_footer.html");
+				</script>
+			</div>
+		<!-- Footer End -->
 	</body>
 </html>

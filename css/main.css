@@ -11,7 +11,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body .has-navbar-top{
+body.has-navbar-top{
 	min-height: 75rem;
 	padding-top: 4.5rem;
 }
@@ -24,33 +24,42 @@ a:hover{
 }
 .swiper-container{
     height: 540px;
-    
 }
 
-.section-one{
-  margin-left: 100px;
+
+
+
+.section-text{
+    padding-top: 50px;
 }
 .section-two{
-   
-    padding-top: 200px;
-
+    padding-top: 50px;
+}
+.section-news{
+    margin-bottom: 100px;
+}
+.section-news-ul{
+   list-style-type: none;
+   margin:0;
+   padding:0;
+}
+.section-news-text{
+    color: #363b40;
+    transition: color 0.5s;
 }
 
-.section-two-block{
-margin-top: 50px;
-margin-left: 100px;
+.section-news-text:hover{
+    color: #8a9399;
+    text-decoration: underline;
 }
 .section-two-item-icon{
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-.section-one-item{
-  
-}
+
 .section-two-item{
     margin-top: 3rem;
     margin-right: 3rem;
-   cursor: pointer;
-
+    cursor: pointer;
 }
 
 .section-two-item:hover{
@@ -89,10 +98,6 @@ padding-bottom: 10px;
 
 }
 
-.section-member{
-    margin-top: 100px;
-}
-
 
 .footer-text{
     padding-top: 50px;
@@ -110,10 +115,6 @@ padding-bottom: 10px;
 .member-name{
     color: #363b40;
 }
-
-.member-github{
-
-}
 .fa-5{
     font-size: 7rem;
 }
@@ -125,4 +126,16 @@ padding-bottom: 10px;
 }
 .fa-1{
     font-size: 1.9rem;
+}
+.home-slide-container{
+    padding:10px;
+    margin:0;
+    height: 540px;
+}
+.newsdisplay-newscontent{
+    margin:0;
+    padding:0;
+}
+.common-footer-lastline{
+    padding-bottom: 15px;
 }
