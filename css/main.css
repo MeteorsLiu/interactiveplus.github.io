@@ -15,17 +15,15 @@ body.has-navbar-top{
 	min-height: 75rem;
 	padding-top: 4.5rem;
 }
-
- ul li{
-    list-style-type: none;
-}
 a:hover{
     text-decoration: none;
 }
 .swiper-container{
     height: 540px;
 }
-
+.footer-list{
+    list-style-type:none;
+}
 
 
 
