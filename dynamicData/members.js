@@ -51,7 +51,7 @@ var XSYD_MemberInfos = {
         {
             //AuthorID: 3,
             cn:{
-                displayName: "糖糖",
+                displayName: "迪莫",
                 role: "成员",
                 skills: "C#, Arduino, Linux运维"
             },
@@ -69,12 +69,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "小小白",
                 role: "成员",
-                skills: "C++, 网络安全"
+                skills: "C++, Python, 前端"
             },
             en:{
                 displayName: "Little White",
                 role: "Member",
-                skills: "C++, Cyber Security"
+                skills: "C++, Python, Website Front-end"
             },
             github: "Caoblocks",
             qq: "318515692",
@@ -117,12 +117,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "Max",
                 role: "成员",
-                skills: "C++, OIER, 嵌入式"
+                skills: "C++, C#, OIER, 嵌入式"
             },
             en:{
                 displayName: "Max",
                 role: "Member",
-                skills: "C++, OIER, Embedded"
+                skills: "C++, C#, OIER, Embedded"
             },
             github: null,
             qq: "2716790565",
@@ -156,7 +156,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Website Front-end, PHP, C++"
             },
-            github: "wildcard",
+            github: "wi1dcard",
             qq: "122078472",
             portrait: "122078472.png"
         },
