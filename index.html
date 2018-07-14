@@ -119,7 +119,7 @@
         <div class="swiper-container" id="banner">
             <div class="swiper-wrapper" id="swipeContentHolder">
                <script src="dynamicData/indexslides.js"></script>
-               <script src="js/homePageSlidesLoad.js"></script>
+               <script src="js/homePageSlidesLoad.js" async></script>
                <script>
                     $(document).ready(function(){
                         loadIndexSlides("#swipeContentHolder","cn");
@@ -156,7 +156,7 @@
 
                     </div>
                     <script src="dynamicData/newsList.js"></script>
-                    <script src="js/homePageNewsListDisplay.js"></script>
+                    <script src="js/homePageNewsListDisplay.js" async></script>
                     <script>
                         $(document).ready(function(){
                             loadSelectorsWithNews("#NewsBox",["#NewsUL1","#NewsUL2","#NewsUL3","#NewsUL4"],"cn",20);
