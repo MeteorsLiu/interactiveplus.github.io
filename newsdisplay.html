@@ -15,6 +15,7 @@
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js" />
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js" />
         <link rel="preload" as="script" href="js/main.js" />
+        <link rel="preload" as="script" href="js/articleShared.js" />
         <!-- Finish Declaring Preload JS Files -->
         
         <!-- CSS Resource Start -->
@@ -34,6 +35,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/articleShared.js"></script>
         <!-- JS Resource End -->
         <!-- Favicon Declaration Start -->
         <link rel="icon" href="static/favicon.ico" type="image/ico"/>
@@ -59,7 +61,7 @@
         <!-- Header Start -->
         <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
            <div class="container">
-                <a class="navbar-brand mr-3" href="index.html">
+                <a class="navbar-brand mr-4" href="index.html">
                     <img class="d-inline-block align-top" src="static/favicon.png"  width="32" height="32" alt="">
                     <span>形随意动</span>
                 </a>
@@ -136,15 +138,13 @@
 			<!-- News Content Area Start -->
 			<div class="container-fluid newsdisplay-newscontent" id="NewsDisplayBox">
 				<div class="row">
-					<div class="" id="NewsContentBox">
+                    <div class="col-md-9" id="NewsContentBox">
 
-					</div>
-                    <!--
-					<div class="col-md-3" id="NewsAuthorBox">
+                    </div>
+                    <div class="col-md-3" id="NewsAuthorBox">
 
-					</div>
-                    -->
-				</div>
+                    </div>
+                </div>
 				<div class="container-fluid newsdisplay-news404box" style="display:none" id="NewsContent404Box">
 					<p class="lead text-center">错误发生了!</p>
 					<p class="text-center">在读取您的文章时发生了一个错误, 可能是因为ArticleID错误导致的, 请检查后联系网站管理员.</p>

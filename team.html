@@ -16,6 +16,7 @@
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js" />
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js" />
         <link rel="preload" as="script" href="js/main.js" />
+        <link rel="preload" as="script" href="js/articleShared.js" />
         <!-- Finish Declaring Preload JS Files -->
         
         <!-- CSS Resource Start -->
@@ -35,6 +36,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/articleShared.js"></script>
         <!-- JS Resource End -->
         <!-- Favicon Declaration Start -->
         <link rel="icon" href="static/favicon.ico" type="image/ico"/>
@@ -60,7 +62,7 @@
         <!-- Header Start -->
         <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
            <div class="container">
-                <a class="navbar-brand" href="index.html" style="margin-right: 3.5rem !important;">
+                <a class="navbar-brand mr-4" href="index.html">
                     <img class="d-inline-block align-top" src="static/favicon.png"  width="32" height="32" alt="">
                     <span>形随意动</span>
                 </a>
@@ -103,13 +105,8 @@
         <div class="container" id="NewsDisplayOutsideBox">
             <!-- News Content Area Start -->
             <div class="container-fluid newsdisplay-newscontent" id="NewsDisplayBox">
-                <div class="row">
-                    <div class="col-md-9" id="NewsContentBox">
+                <div class="container-fluid" id="NewsContentBox">
 
-                    </div>
-                    <div class="col-md-3" id="NewsAuthorBox">
-
-                    </div>
                 </div>
                 <div class="container-fluid" style="display:none" id="NewsContent404Box">
                     <p class="lead text-center">错误发生了!</p>
@@ -119,11 +116,11 @@
                 <script src="dynamicData/newsList.js"></script>
                 <script src="js/newsDisplayLoading.js"></script>
                 <script>
-                $(document).ready(function(){
+                    $(document).ready(function(){
                         var ArticleStillLoading = true;
                         var articleID = 0;
                         if(ArticleStillLoading){
-                            var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox","#NewsAuthorBox",articleID,"cn")
+                            var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox",null,articleID,"cn")
                         }
                     });
                 </script>
