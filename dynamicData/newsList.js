@@ -17,6 +17,24 @@ var XSYD_News = {
                 isURLAbsolute: false,
                 AuthorID: 0
             }
+        },
+        { //articleID = 1
+            cn:{
+                title: "形随意动新官网上线!",
+                briefDescription: "本文章介绍新官网开发动机, 以及背后蕴含的技术!",
+                articleURL: "1_InteractivePlusNewWeb_CN.html",
+                showOnIndexNews: false, //Not showing on index news block because this is the team introduction.
+                isURLAbsolute: false, //if URL is not absolute, articleBaseURL will be added.
+                ArthorID: 0
+            },
+            en:{
+                title: "InterActive+ Introduction",
+                briefDescription: "This article describes what motivates us to make this new website and what are the technologies behind it!",
+                articleURL: "1_InteractivePlusNewWeb_EN.html",
+                showOnIndexNews: false,
+                isURLAbsolute: false,
+                AuthorID: 0
+            }
         }
     ],
     articlesBaseURL: "dynamicData/articles/"

@@ -9,7 +9,7 @@ var XSYD_IndexSlides = {
                 customButton: false,
                 customButtonURL: null,
                 customButtonText: null,
-                articleIDRelated: 0
+                articleIDRelated: 1
             },
             en:{
                 title: '<span class="text-white">We launched our new website!</span>',
@@ -18,7 +18,7 @@ var XSYD_IndexSlides = {
                 customButton: false,
                 customButtonURL: null,
                 customButtonText: null,
-                articleIDRelated: 0
+                articleIDRelated: 1
             }
         }
     ]

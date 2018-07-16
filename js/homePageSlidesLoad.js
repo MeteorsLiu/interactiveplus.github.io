@@ -21,10 +21,10 @@ function loadIndexSlides(Selector, Language){
         }
         var ButtonCodes = "";
         if((!ThisSlideLangInfo.disableArticleButton) && ThisSlideLangInfo.articleIDRelated !== null ** ThisSlideLangInfo.articleIDRelated != undefined){
-            ButtonCodes += '<a class="btn btn-primary" role="button" href="' + XSYD_WebSettings.newsPage + ThisSlideLangInfo.articleIDRelated + '" target="_blank">' + MoreInfoBtnText + '</a>';
+            ButtonCodes += '<a class="btn btn-primary" role="button" href="' + XSYD_WebSettings.newsPage + ThisSlideLangInfo.articleIDRelated + '">' + MoreInfoBtnText + '</a>';
         }
         if(ThisSlideLangInfo.customButton){
-            ButtonCodes += '<a class="btn btn-primary" role="button" href="' + ThisSlideLangInfo.customButtonURL + '" target="_blank">' + ThisSlideLangInfo.customButtonText + '</a>';
+            ButtonCodes += '<a class="btn btn-primary" role="button" href="' + ThisSlideLangInfo.customButtonURL + '">' + ThisSlideLangInfo.customButtonText + '</a>';
         }
 
         var BackgroundCodes = "";
