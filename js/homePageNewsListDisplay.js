@@ -34,7 +34,6 @@ function loadSelectorsWithNews(NewsSectionSelector,Selectors,Language,Limit = -1
         $(mNewsContainers[CurrentContainer]).append(
             AppendText
         );
-        console.log("OK");
         CurrentContainer++;
         OutputCount++;
         if(OutputCount >= Limit && Limit != -1){

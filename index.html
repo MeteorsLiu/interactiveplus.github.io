@@ -1,40 +1,15 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        
-        <!-- Declaring Important Preload CSS Files -->
-        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
-        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
-        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css">
-        <link rel="preload" as="style" href="css/main.css">
-        <!-- Finish Declaring Preload CSS Files -->
         <!-- Delcaring Important Preload JS Files -->
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
-        <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js" />
-        <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js" />
-        <link rel="preload" as="script" href="js/main.js" />
         <!-- Finish Declaring Preload JS Files -->
-        
-        <!-- CSS Resource Start -->
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link type="text/css" rel="stylesheet" href="css/main.css">
-        <!-- CSS Resource End -->
-        
+
         <!-- JS Resource Start -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
         <!-- JS Resource End -->
+        
         <!-- Favicon Declaration Start -->
         <link rel="icon" href="static/favicon.ico" type="image/ico"/>
         <!-- Favicon Declaration End -->
@@ -46,160 +21,38 @@
         <title>形随意动 - 科技改变未来</title>
     </head>
     <body>
-    
-        <!--[if lt IE 9]>
-            <div class="alert alert-warning flex" role="alert">
-          你的浏览器太久了，请升级再访问本网站 
-          <br>
-           Your Browser is too old.Please click the fllowing link to upgrade your browser.
-          <a href="http://browsehappy.com" class="alert-link">点我升级</a>
-        </div>
-        <![endif]-->
-        
-        <!-- Header Start -->
-        <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
-           <div class="container">
-                <a class="navbar-brand mr-4" href="javascript:void(0);">
-                    <img class="d-inline-block align-top" src="static/favicon.png"  width="32" height="32" alt="">
-                    <span>形随意动</span>
-                </a>
-                
-                <!-- Mobile Device Navigation Toggle Button Start -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                     <i class="fa fa-bars"></i>
-                </button>
-                <!-- Navigation Toggle Button Ends -->
-                
-                 <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="navbar-nav mr-auto">
-                       <li class="nav-item">
-                         <a class="nav-link nav-text" href="team.html" >团队介绍</a>
-                       </li>
-                       <li class="nav-item">
-                          <a class="nav-link nav-text" href="members.html" >成员</a>
-                       </li>
-                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="cooperation.html">合作</a>
-                       </li>
-                       <li class="nav-item">
-                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">开源</a>
-                       </li>
-                    </ul>
-                    <span class="navbar-text dropdown " >
-                        <button class="btn btn-outline-primary dropdown-toggle" id="ChooseLanguage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                        <div class="dropdown-menu" aria-labelledby="ChooseLanguage" id="LoadLanguaage">
-                            <a class="dropdown-item" id="LangSelection_Chinese" href="#">简体中文</a>
-                            <a class="dropdown-item" id="LangSelection_English" href="#">English</a>
-                        </div>
-                    </span>
-                </div>
-            </div>
-        </nav>
-        <!-- Header End -->
-        
-        <!-- Banner Start -->
         <script>
-            $(document).ready(function(){
-                var mySwiper = new Swiper (
-                    '#banner',
-                    {
-                        autoplay: true,
-                        loop: true,
-                        navigation: {
-                            nextEl: '#Banner-Button-Next',
-                            prevEl: '#Banner-Button-Prev'
-                        }
+            function getUrlParam(name) {
+				//构造一个含有目标参数的正则表达式对象
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				//匹配目标参数
+				var r = window.location.search.substr(1).match(reg);
+				//返回参数值
+				if(r != null) {
+					return decodeURI(r[2]);
+				}
+				return null;
+			}
+            function redirectURLTo(Language){
+                var URL= Language + "/";
+                $.cookie("XSYD_Language",Language,{expires:365, path:'/'});
+				window.location = URL;
+				window.location.href = URL;
+				$("head").append('<meta http-equiv="refresh" content="0;url=' + URL + '" />');
+			}
+			$(document).ready(function(e) {
+                var jumpLang = getUrlParam("jumpLanguage");
+                if(jumpLang === null || jumpLang === undefined){
+                    var userLang = (navigator.language || navigator.userLanaguage || navigator.browserLanguage).toLowerCase();
+                    if(userLang.indexOf("zh") > -1){
+                        redirectURLTo("cn");
+                    }else{
+                        redirectURLTo("en");
                     }
-                );
-                if(mySwiper.slides.length <= 1){
-                    mySwiper.destroy();
+                }else{
+                    redirectURLTo("jumpLang");
                 }
             });
         </script>
-        <div class="swiper-container" id="banner">
-            <div class="swiper-wrapper" id="swipeContentHolder">
-               <script src="dynamicData/indexslides.js"></script>
-               <script src="js/homePageSlidesLoad.js"></script>
-               <script>
-                    $(document).ready(function(){
-                        loadIndexSlides("#swipeContentHolder","cn");
-                    });
-               </script>
-            </div>
-            <div class="swiper-button-prev d-none d-md-block" id="Banner-Button-Prev"></div>
-            <div class="swiper-button-next d-none d-md-block" id="Banner-Button-Next"></div>
-        </div>
-        <!-- Banner End -->
-        
-        <!-- Section Text Start -->
-        <div class="section-text" id="section">
-            <div class="container">
-                <div class="section-news" id="NewsBox">
-                    <h1 class="text-center section-text-tittle">新闻动态</h1>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <ul class="section-news-ul" id="NewsUL1">
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="section-news-ul" id="NewsUL2">
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="section-news-ul" id="NewsUL3">
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="section-news-ul" id="NewsUL4">
-                            </ul>
-                        </div>
-
-                    </div>
-                    <script src="dynamicData/newsList.js"></script>
-                    <script src="js/homePageNewsListDisplay.js"></script>
-                    <script>
-                        $(document).ready(function(){
-                            loadSelectorsWithNews("#NewsBox",["#NewsUL1","#NewsUL2","#NewsUL3","#NewsUL4"],"cn",20);
-                        });
-                    </script>
-                </div>
-
-                <div class="section-one">
-                    <h1 class="text-center section-text-tittle">技术驾驭<span class="text-primary">创新</span>, 数字驱动<span class="text-primary">转型</span></h1>
-                    <h2 class="text-center section-text-little-tittle">传统的商业模式正在被新技术所颠覆，同时又以一种全新的模式融合再创新</h2>
-                    <div class="row mt-5" >
-                        <div class="col-xs-4 col-md-6 pr-0" >
-                            <img src="static/sectionOneBG.jpg" class="rounded-left" width="100%" alt="Section Background Image">
-                        </div>
-                    	<div class="col-xs-10  col-md-6 bg-light rounded-right">
-                            <div class="p-3">
-                                <h3 class="section-item-in-text">形随意动致力于改变世界创建和交付应用的方式，用技术的力量帮助企业实现数字化转型。</h3>
-                                <h3 class="section-item-in-text"> 准备好通向互联网之路了吗？</h3>
-                            </div>
-                            <button class="btn btn-outline-primary m-3">了解更多</button>
-                        </div>
-                   </div>
-                </div>
-        
-                <div class="section-two">
-                    <h1 class="text-center section-text-tittle"><span class="text-primary">简化</span>编程难度, 推动<span class="text-primary">创新</span>力量</h1>
-                    <h2 class="text-center section-text-little-tittle">形随意动致力于实践跨平台应用编写, 开发了包括EasyCrossPlatform, BoostPHP等简化程序开发的框架</h2>
-                    <h2 class="text-center section-text-little-tittle"><span style="color:chocolate">形随意动</span>让开发到部署的每个流程简单易用</h2>
-                </div>
-            </div>
-        </div>
-        <!-- Section Text End -->
-        
-
-
-
-        <!-- Footer Start -->
-        <div class="footer">
-            <script>
-				prependSelectorWithRemoteContent(".footer","common_footer.html");
-			</script>
-        </div>
-
-        <!-- Footer End -->
     </body>
 </html>

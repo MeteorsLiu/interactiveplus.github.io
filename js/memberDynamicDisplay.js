@@ -15,7 +15,7 @@ function dynamicDisplayMembers(Selector, Language){
         DisplayRow.append(
             '<div class="col-sm-4 col-md-3">' +
                 '<div class="text-center section-two-item">' +
-                    '<img src="' + XSYD_MemberInfos.portraitBaseURL + CurrentMember.portrait + '" class="rounded-circle w-50" />' +
+                    '<img src="' +  "../" + XSYD_MemberInfos.portraitBaseURL + CurrentMember.portrait + '" class="rounded-circle w-50" />' +
                     '<div class="mt-3">' +
                         '<h3 class="member-name">' + CurrentMemberLangInfo.displayName + '</h3>' +
                         '<p class="member-intro">' + CurrentMemberLangInfo.role + '</p>' + 

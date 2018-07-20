@@ -29,7 +29,7 @@ function loadIndexSlides(Selector, Language){
 
         var BackgroundCodes = "";
         if(ThisSlide.backgroundImage !== undefined && ThisSlide.backgroundImage !== null && ThisSlide.backgroundImage !== undefined){
-            BackgroundCodes = '<div class="swiper-slide" style="background-image: url(\'' + ThisSlide.backgroundImage + '\');background-size:cover;">';
+            BackgroundCodes = '<div class="swiper-slide" style="background-image: url(\'' + "../" + ThisSlide.backgroundImage + '\');background-size:cover;">';
         }else{
             BackgroundCodes = '<div class="swiper-slide">';
         }

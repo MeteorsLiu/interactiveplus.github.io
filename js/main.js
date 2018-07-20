@@ -1,6 +1,7 @@
 var XSYD_WebSettings = {
 	newsPage: "newsdisplay.html?id=",
-	newsContent404GoBack: "index.html"
+	newsContent404GoBack: "index.html",
+	baseURL: "../" //This can be an absolute URL(https://www.interactiveplus.org/) or relative directory.
 };
 
 var bootstrapSize = {

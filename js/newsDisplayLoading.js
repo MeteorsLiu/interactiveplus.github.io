@@ -19,11 +19,11 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     }
 
     //Start Reading Article Content URL
-    var mArticleURL = "";
+    var mArticleURL = "../";
     if(mArticleLangInfo.isURLAbsolute){
-        mArticleURL = mArticleLangInfo.articleURL;
+        mArticleURL += mArticleLangInfo.articleURL;
     }else{
-        mArticleURL = XSYD_News.articlesBaseURL + mArticleLangInfo.articleURL;
+        mArticleURL += XSYD_News.articlesBaseURL + mArticleLangInfo.articleURL;
     }
     //End Reading Article Content URL
 
