@@ -45,7 +45,7 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     }
     var ArticleAuthorDisplayCode = 
     '<div class="text-center section-two-item">' +
-        '<img src="' + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' +
+        '<img src="' + "../" + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' +
         '<div class="mt-3">' +
             '<h3 class="member-name">' + mArticleAuthorLangInfo.displayName + '</h3>' +
             '<p class="member-intro">' + mArticleAuthorLangInfo.role + '</p>' + 

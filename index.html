@@ -37,25 +37,30 @@
 					return decodeURI(r[2]);
 				}
 				return null;
-			}
-            function redirectURLTo(Language){
-                var URL= Language + "/";
-                $.cookie("XSYD_Language",Language,{expires:365, path:'/'});
-				window.location = URL;
+            }
+            
+            function redirectToURL(URL){
+                window.location = URL;
 				window.location.href = URL;
 				$("head").append('<meta http-equiv="refresh" content="0;url=' + URL + '" />');
+            }
+
+            function redirectLangTo(Language){
+                var URL= Language + "/";
+                $.cookie("XSYD_Language",Language,{expires:365, path:'/'});
+				redirectToURL(URL);
 			}
 			$(document).ready(function(e) {
                 var jumpLang = getUrlParam("jumpLanguage");
                 if(jumpLang === null || jumpLang === undefined){
                     var userLang = (navigator.language || navigator.userLanaguage || navigator.browserLanguage).toLowerCase();
                     if(userLang.indexOf("zh") > -1){
-                        redirectURLTo("cn");
+                        redirectLangTo("cn");
                     }else{
-                        redirectURLTo("en");
+                        redirectLangTo("en");
                     }
                 }else{
-                    redirectURLTo(jumpLang);
+                    redirectLangTo(jumpLang);
                 }
             });
         </script>
