@@ -175,6 +175,22 @@ var XSYD_MemberInfos = {
             github: "ansiiw",
             qq: "1294297705",
             portrait: "1294297705.jpg"
+        },
+        {
+            //AuthorID: 11,
+            cn:{
+                displayName: "仅一凡人",
+                role: "成员",
+                skills: "绘画, 设计, 网页前端"
+            },
+            en:{
+                displayName: "OneRice",
+                role: "Member",
+                skills: "Drawing, Design, Website Front-end"
+            },
+            github: "toyiff",
+            qq: "1651429093",
+            portrait: "1651429093.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
