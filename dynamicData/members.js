@@ -28,7 +28,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Arduino, C++, Documents"
             },
-            github: null,
+            github: "weypro",
             qq: "2284938880",
             portrait: "2284938880.jpg"
         },
