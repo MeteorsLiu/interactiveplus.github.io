@@ -13,7 +13,7 @@ var XSYD_IndexSlides = {
             },
             en:{
                 title: '<span class="text-white">We launched our new website!</span>',
-                description: '<span class="text-white">Interactive+ launched its new website today, lets celebrate this glory moment!</span>',
+                description: '<span class="text-white">Interactive+ launched its new website today, let\'s celebrate this glory moment!</span>',
                 disableArticleButton: false,
                 customButton: false,
                 customButtonURL: null,

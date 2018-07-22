@@ -26,8 +26,7 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
         mArticleURL += XSYD_News.articlesBaseURL + mArticleLangInfo.articleURL;
     }
     //End Reading Article Content URL
-
-    var mArticleAuthor = XSYD_MemberInfos.memberlist[mArticleLangInfo.ArthorID];
+    var mArticleAuthor = XSYD_MemberInfos.memberlist[mArticleLangInfo.AuthorID];
     if(mArticleAuthor === null || mArticleAuthor === undefined){
         return false;
     }

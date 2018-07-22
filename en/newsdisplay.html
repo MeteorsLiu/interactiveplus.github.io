@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         
@@ -43,9 +43,9 @@
         
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="keywords" content="形随意动, 形随意动介绍, 青少年编程, 团队, 开源" />
-        <meta name="description" content="形随意动是求真, 务实的新纪元青少年编程团队. 形随意动致力于以符合时代的方法传递出领先于时代的精神. 形随意动是一个以云服务为核心的青少年编程兴趣组织, 专注于开源编程. 我们希望以以符合时代的方法传递出领先于时代的精神,且通过科技来推进社会发展." />
-        <title>形随意动 - 新闻</title>
+        <meta name="keywords" content="InteractivePlus, Interactive+, BlueAirTechGroup" />
+        <meta name="description" content="InteractivePlus is a teenager coding group that focus on open-source, and make our world better by the push of technologies. Interactive+ will continue to organize with determination, act with passion, treat others with respect, intergrity and honesty." />
+        <title>InteractivePlus - News</title>
     </head>
     <body>
     
@@ -58,45 +58,45 @@
         </div>
         <![endif]-->
         
-        <!-- Header Start -->
-        <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
-           <div class="container">
-                <a class="navbar-brand mr-4" href="index.html">
-                    <img class="d-inline-block align-top" src="../static/favicon.png"  width="32" height="32" alt="">
-                    <span>形随意动</span>
-                </a>
-                
-                <!-- Mobile Device Navigation Toggle Button Start -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                     <i class="fa fa-bars"></i>
-                </button>
-                <!-- Navigation Toggle Button Ends -->
-                
-                 <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="navbar-nav mr-auto">
-                       <li class="nav-item">
-                         <a class="nav-link nav-text" href="team.html" >团队介绍</a>
-                       </li>
-                       <li class="nav-item">
-                          <a class="nav-link nav-text" href="members.html" >成员</a>
-                       </li>
-                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="cooperation.html">合作</a>
-                       </li>
-                       <li class="nav-item">
-                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">开源</a>
-					   </li>
-                    </ul>
-                    <span class="navbar-text dropdown " >
-                        <button class="btn btn-outline-primary dropdown-toggle" id="ChooseLanguage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                        <div class="dropdown-menu" aria-labelledby="ChooseLanguage" id="LoadLanguaage">
-                            <a class="dropdown-item" id="LangSelection_English" href="../?jumpLanguage=en">English</a>
-                        </div>
-                    </span>
-                </div>
-            </div>
-        </nav>
-		<!-- Header End -->
+       <!-- Header Start -->
+       <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
+        <div class="container">
+             <a class="navbar-brand mr-4" href="index.html">
+                 <img class="d-inline-block align-top" src="../static/favicon.png"  width="32" height="32" alt="">
+                 <span>InteractivePlus</span>
+             </a>
+             
+             <!-- Mobile Device Navigation Toggle Button Start -->
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa fa-bars"></i>
+             </button>
+             <!-- Navigation Toggle Button Ends -->
+             
+              <div class="collapse navbar-collapse" id="nav-collapse">
+                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link nav-text" href="team.html" >Team</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link nav-text" href="members.html" >Members</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link nav-text" href="cooperation.html">Cooperation</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">OpenSource</a>
+                    </li>
+                 </ul>
+                 <span class="navbar-text dropdown " >
+                     <button class="btn btn-outline-primary dropdown-toggle" id="ChooseLanguage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
+                     <div class="dropdown-menu" aria-labelledby="ChooseLanguage" id="LoadLanguaage">
+                         <a class="dropdown-item" id="LangSelection_Chinese" href="../?jumpLanguage=cn">简体中文</a>
+                     </div>
+                 </span>
+             </div>
+         </div>
+     </nav>
+     <!-- Header End -->
 
 		<!-- News TitleBox Area Start -->
 		<div class="container-fluid bg-info" id="NewsTitleBox" style="overflow:hidden">
@@ -116,7 +116,7 @@
 						<script src="../js/homePageNewsListDisplay.js"></script>
 						<script>
 							$(document).ready(function(){
-								loadSelectorsWithNews("#NewsListBox",["#NewsUL1"],"cn",2);
+								loadSelectorsWithNews("#NewsListBox",["#NewsUL1"],"en",2);
 							});
 						</script>
 					</div>
@@ -154,14 +154,14 @@
 				<script>
 					$(document).ready(function(){
 						var ArticleStillLoading = true;
-						var articleIDString = getGETParam("id");
+                        var articleIDString = getGETParam("id");
 						if(articleIDString === null || articleIDString === undefined){
 							$("#NewsContent404Box").show();
 							ArticleStillLoading = false;
 						}
 						var articleID = parseInt(articleIDString);
 						if(ArticleStillLoading){
-							var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox","#NewsAuthorBox",articleID,"cn")
+							var ArticleSuccessfulLoaded = LoadArticle("#NewsContentBox","#NewsAuthorBox",articleID,"en")
                             if(!ArticleSuccessfulLoaded){
                                 $("#NewsContent404Box").show();
                             }

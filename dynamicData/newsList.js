@@ -7,7 +7,7 @@ var XSYD_News = {
                 articleURL: "0_InteractivePlusIntro_CN.html",
                 showOnIndexNews: false, //Not showing on index news block because this is the team introduction.
                 isURLAbsolute: false, //if URL is not absolute, articleBaseURL will be added.
-                ArthorID: 0
+                AuthorID: 0
             },
             en:{
                 title: "InterActive+ Introduction",
@@ -25,10 +25,10 @@ var XSYD_News = {
                 articleURL: "1_InteractivePlusNewWeb_CN.html",
                 showOnIndexNews: true, //Not showing on index news block because this is the team introduction.
                 isURLAbsolute: false, //if URL is not absolute, articleBaseURL will be added.
-                ArthorID: 0
+                AuthorID: 0
             },
             en:{
-                title: "InterActive+ Introduction",
+                title: "We launched our new website!",
                 briefDescription: "This article describes what motivates us to make this new website and what are the technologies behind it!",
                 articleURL: "1_InteractivePlusNewWeb_EN.html",
                 showOnIndexNews: true,
