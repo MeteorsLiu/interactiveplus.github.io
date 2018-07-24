@@ -8,11 +8,13 @@
 
         <!-- Delcaring Important Preload JS Files -->
         <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
+        <link rel="preload" as="script" href="js/main.js" />
         <!-- Finish Declaring Preload JS Files -->
 
         <!-- JS Resource Start -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="js/main.js"></script>
         <!-- JS Resource End -->
         
         <!-- Favicon Declaration Start -->
@@ -47,7 +49,7 @@
 
             function redirectLangTo(Language){
                 var URL= Language + "/";
-                $.cookie("XSYD_Language",Language,{expires:365, path:'/'});
+                $.cookie("XSYD_Language",Language,{expires:XSYD_WebSettings.languageCookieDuration, path:'/'});
 				redirectToURL(URL);
 			}
 			$(document).ready(function(e) {

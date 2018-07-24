@@ -191,6 +191,22 @@ var XSYD_MemberInfos = {
             github: "toyiff",
             qq: "1651429093",
             portrait: "1651429093.jpg"
+        },
+        {
+            //AuthorID: 12,
+            cn:{
+                displayName: "Zhe_Learn",
+                role: "成员",
+                skills: "C++, Java"
+            },
+            en:{
+                displayName: "Zhe_Learn",
+                role: "Member",
+                skills: "C++, Java"
+            },
+            github: "LiuZeyun",
+            qq:"501088732",
+            portrait: "501088732.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"

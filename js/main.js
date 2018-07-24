@@ -1,7 +1,8 @@
 var XSYD_WebSettings = {
 	newsPage: "newsdisplay.html?id=",
 	newsContent404GoBack: "index.html",
-	baseURL: "../" //This can be an absolute URL(https://www.interactiveplus.org/) or relative directory.
+	baseURL: "../", //This can be an absolute URL(https://www.interactiveplus.org/) or relative directory.
+	languageCookieDuration: 365
 };
 
 var bootstrapSize = {
@@ -150,22 +151,20 @@ $(document).ready(function() { //$().load function is deprecated
 	//******************* End Reading BrowserName/Width/Height/BootstrapSize ***********************/
 
 	//******************* Start Cookie Prompt ********************/
-	if($.cookie("XSYD_CookiePrompted") === null || $.cookie("XSYD_CookiePrompted") === undefined){
-		$.cookie("XSYD_CookiePrompted",true,{expires:1, path:'/'});
-		if($.cookie("XSYD_Language") === null || $.cookie("XSYD_Language") === undefined){
-			$.cookie("XSYD_Language","cn",{expires:365, path:'/'}); //Cookie is supposed to be set at the language detection page.
-	 	}
-		var CookieConsent = {message:'', dismiss:''};
-		if($.cookie("XSYD_Language") === "cn"){
-			CookieConsent.message = "此网站需要使用Cookie，以便于我们可以给您更好的访问体验";
-			CookieConsent.dismiss = "我知道了";
-     		CookieConsent.link = '了解更多';
-		}else if($.cookie("XSYD_Language") === "en"){
-			CookieConsent.message = "This website needs your cookie in order for us to give you a better experience";
-			CookieConsent.dismiss = "Got it";
-			CookieConsent.link = 'Learn more';
-		}
-		cookieconsent.initialise(
+	if($.cookie("XSYD_Language") === null || $.cookie("XSYD_Language") === undefined){
+		$.cookie("XSYD_Language","cn",{expires:XSYD_WebSettings.languageCookieDuration, path:'/'}); //Cookie is supposed to be set at the language detection page.
+	}
+	var CookieConsent = {message:'', dismiss:''};
+	if($.cookie("XSYD_Language") === "cn"){
+		CookieConsent.message = "此网站需要使用Cookie，以便于我们可以给您更好的访问体验";
+		CookieConsent.dismiss = "我知道了";
+		CookieConsent.link = '了解更多';
+	}else if($.cookie("XSYD_Language") === "en"){
+		CookieConsent.message = "This website needs your cookie in order for us to give you a better experience";
+		CookieConsent.dismiss = "Got it";
+		CookieConsent.link = 'Learn more';
+	}
+	cookieconsent.initialise(
 		{
 			'palette': {
 			'popup': {
@@ -181,8 +180,7 @@ $(document).ready(function() { //$().load function is deprecated
 			'position': 'bottom',
 			'content': CookieConsent
 		}
-		);
-	}
+	);
 	//********************* End Cookie Prompt ********************/
 });
 $(window).resize(function(){
