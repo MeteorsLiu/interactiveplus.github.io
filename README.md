@@ -1,4 +1,4 @@
-#New Website
+# New Website
 Basically a new website design for Interactive+
 
 ## Design-Theory
@@ -71,3 +71,7 @@ Code Review by Windy
 - [x] \(common_footer.html\) 完成底部Footer内容
 - [x] \(cooperation.html\) 完成合作页面
 - [x] \(js\homePageNewsListDisplay.js\) 设置新闻列表加载顺序为从最新到最旧
+
+---
+2018.7.20 秋风
+- [x] \(index.html\) 增加首页语言检测跳转

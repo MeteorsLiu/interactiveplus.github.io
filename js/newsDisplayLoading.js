@@ -19,15 +19,14 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     }
 
     //Start Reading Article Content URL
-    var mArticleURL = "";
+    var mArticleURL = "../";
     if(mArticleLangInfo.isURLAbsolute){
-        mArticleURL = mArticleLangInfo.articleURL;
+        mArticleURL += mArticleLangInfo.articleURL;
     }else{
-        mArticleURL = XSYD_News.articlesBaseURL + mArticleLangInfo.articleURL;
+        mArticleURL += XSYD_News.articlesBaseURL + mArticleLangInfo.articleURL;
     }
     //End Reading Article Content URL
-
-    var mArticleAuthor = XSYD_MemberInfos.memberlist[mArticleLangInfo.ArthorID];
+    var mArticleAuthor = XSYD_MemberInfos.memberlist[mArticleLangInfo.AuthorID];
     if(mArticleAuthor === null || mArticleAuthor === undefined){
         return false;
     }
@@ -45,7 +44,7 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     }
     var ArticleAuthorDisplayCode = 
     '<div class="text-center section-two-item">' +
-        '<img src="' + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' +
+        '<img src="' + "../" + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' +
         '<div class="mt-3">' +
             '<h3 class="member-name">' + mArticleAuthorLangInfo.displayName + '</h3>' +
             '<p class="member-intro">' + mArticleAuthorLangInfo.role + '</p>' + 
@@ -63,7 +62,9 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
             '</div>') + 
         '</div>' + 
     '</div>';
-    $(NewsAuthorSelector).append(ArticleAuthorDisplayCode);
+    if(NewsAuthorSelector !== null && NewsAuthorSelector !== undefined){
+        $(NewsAuthorSelector).append(ArticleAuthorDisplayCode);
+    }
     appendSelectorWithRemoteContent(NewsContentSelector,mArticleURL);
     return true;
 }
