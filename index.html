@@ -47,8 +47,8 @@
 				$("head").append('<meta http-equiv="refresh" content="0;url=' + URL + '" />');
             }
 
-            function redirectLangTo(Language){
-                var URL= Language + "/";
+            function redirectLangTo(Language, Page){
+                var URL= Language + "/" + Page;
                 $.cookie("XSYD_Language",Language,{expires:XSYD_WebSettings.languageCookieDuration, path:'/'});
 				redirectToURL(URL);
 			}
@@ -57,12 +57,16 @@
                 if(jumpLang === null || jumpLang === undefined){
                     var userLang = (navigator.language || navigator.userLanaguage || navigator.browserLanguage).toLowerCase();
                     if(userLang.indexOf("zh") > -1){
-                        redirectLangTo("cn");
+                        redirectLangTo("cn","index.html");
                     }else{
-                        redirectLangTo("en");
+                        redirectLangTo("en","index.html");
                     }
                 }else{
-                    redirectLangTo(jumpLang);
+                    var jumpPage = getUrlParam("jumpPage");
+                    if(jumpPage === null || jumpPage === undefined){
+                        jumpPage = "";
+                    }
+                    redirectLangTo(jumpLang,jumpPage);
                 }
             });
         </script>
