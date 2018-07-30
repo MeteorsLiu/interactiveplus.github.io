@@ -204,7 +204,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Java"
             },
-            github: "LiuZeyun",
+            github: "zHElEARN",
             qq:"501088732",
             portrait: "501088732.jpg"
         }
