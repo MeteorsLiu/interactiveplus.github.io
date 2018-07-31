@@ -35,6 +35,9 @@ function loadSelectorsWithNews(NewsSectionSelector,Selectors,Language,Limit = -1
             AppendText
         );
         CurrentContainer++;
+        if(CurrentContainer >= mNewsContainers.length){
+            CurrentContainer = 0;
+        }
         OutputCount++;
         if(OutputCount >= Limit && Limit != -1){
             break;
