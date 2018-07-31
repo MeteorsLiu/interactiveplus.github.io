@@ -1,6 +1,6 @@
-function loadIndexSlides(Selector, Language){
+function loadIndexSlides(banner,prevBtn,nextBtn,swipeContentHolderSelector, Language){
     "use strict";
-    var mySwiperBox = $(Selector);
+    var mySwiperBox = $(swipeContentHolderSelector);
     for(var i=0;i<XSYD_IndexSlides.slides.length;i++){
         var ThisSlide = XSYD_IndexSlides.slides[i];
         var ThisSlideLangInfo = ThisSlide.cn;
@@ -45,6 +45,20 @@ function loadIndexSlides(Selector, Language){
                 '</div>' +
             '</div>'
         )
+    }
+    var mySwiper = new Swiper (
+        banner,
+        {
+            autoplay: true,
+            loop: true,
+            navigation: {
+                nextEl: nextBtn,
+                prevEl: prevBtn
+            }
+        }
+    );
+    if(mySwiper.slides.length <= 1){
+        mySwiper.destroy();
     }
     /*
     <div class="swiper-slide">

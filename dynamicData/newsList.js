@@ -23,14 +23,24 @@ var XSYD_News = {
                 title: "形随意动新官网上线!",
                 briefDescription: "本文章介绍新官网开发动机, 以及背后蕴含的技术!",
                 articleURL: "1_InteractivePlusNewWeb_CN.html",
-                showOnIndexNews: true, //Not showing on index news block because this is the team introduction.
-                isURLAbsolute: false, //if URL is not absolute, articleBaseURL will be added.
+                showOnIndexNews: true,
+                isURLAbsolute: false,
                 AuthorID: 0
             },
             en:{
                 title: "We launched our new website!",
                 briefDescription: "This article describes what motivates us to make this new website and what are the technologies behind it!",
                 articleURL: "1_InteractivePlusNewWeb_EN.html",
+                showOnIndexNews: true,
+                isURLAbsolute: false,
+                AuthorID: 0
+            }
+        },
+        { //articleID = 2
+            cn:{
+                title: "形随意动2019招新信息",
+                briefDescription: "形随意动从2013年成立到如今已经有5个年头了, 在2019新年之际, 我们愿意以自己的热诚接待新人.",
+                articleURL: "2_InteractivePlusRecruit_CN.html",
                 showOnIndexNews: true,
                 isURLAbsolute: false,
                 AuthorID: 0

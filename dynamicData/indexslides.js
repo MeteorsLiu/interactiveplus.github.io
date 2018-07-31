@@ -20,6 +20,18 @@ var XSYD_IndexSlides = {
                 customButtonText: null,
                 articleIDRelated: 1
             }
+        },
+        {
+            backgroundImage: "static/slidesResources/slide2.jpg",
+            cn:{
+                title: '<span class="text-black">形随意动招新!</span>',
+                description: '<span class="text-black">我们已经准备好在2019年迎接新人了!</span>',
+                disableArticleButton: false,
+                customButton: false,
+                customButtonURL: null,
+                customButtonText: null,
+                articleIDRelated: 2
+            },
         }
     ]
 }

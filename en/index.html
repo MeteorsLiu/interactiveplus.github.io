@@ -99,31 +99,13 @@
         <!-- Header End -->
         
         <!-- Banner Start -->
-        <script>
-            $(document).ready(function(){
-                var mySwiper = new Swiper (
-                    '#banner',
-                    {
-                        autoplay: true,
-                        loop: true,
-                        navigation: {
-                            nextEl: '#Banner-Button-Next',
-                            prevEl: '#Banner-Button-Prev'
-                        }
-                    }
-                );
-                if(mySwiper.slides.length <= 1){
-                    mySwiper.destroy();
-                }
-            });
-        </script>
         <div class="swiper-container" id="banner">
             <div class="swiper-wrapper" id="swipeContentHolder">
                <script src="../dynamicData/indexslides.js"></script>
                <script src="../js/homePageSlidesLoad.js"></script>
                <script>
                     $(document).ready(function(){
-                        loadIndexSlides("#swipeContentHolder","en");
+                        loadIndexSlides('#banner',"#Banner-Button-Prev","#Banner-Button-Next","#swipeContentHolder","en");
                     });
                </script>
             </div>
