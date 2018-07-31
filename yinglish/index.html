@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
     <head>
         <meta charset="UTF-8">
         <!-- Declaring Language Alternatives -->
         <link rel="alternate" hreflang="x-default" href="https://www.interactiveplus.org/" />
         <link rel="alternate" hreflang="en" href="https://www.interactiveplus.org/en/index.html" />
+        <link rel="alternate" hreflang="zh" href="https://www.interactiveplus.org/cn/index.html" />
         <!-- Finish Declaring Language Alternatives -->
 
         <!-- Declaring Important Preload CSS Files -->
@@ -47,7 +48,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="keywords" content="形随意动, 形随意动介绍, 青少年编程, 团队, 开源" />
         <meta name="description" content="形随意动是求真, 务实的新纪元青少年编程团队. 形随意动致力于以符合时代的方法传递出领先于时代的精神. 形随意动是一个以云服务为核心的青少年编程兴趣组织, 专注于开源编程. 我们希望以以符合时代的方法传递出领先于时代的精神,且通过科技来推进社会发展." />
-        <title>形随意动 - 科技改变未来</title>
+        <title>嘤随嘤动 - 嘤嘤嘤嘤嘤嘤</title>
     </head>
     <body>
     
@@ -65,7 +66,7 @@
            <div class="container">
                 <a class="navbar-brand mr-4" href="javascript:void(0);">
                     <img class="d-inline-block align-top" src="../static/favicon.png"  width="32" height="32" alt="">
-                    <span>形随意动</span>
+                    <span>嘤随嘤动</span>
                 </a>
                 
                 <!-- Mobile Device Navigation Toggle Button Start -->
@@ -77,22 +78,13 @@
                  <div class="collapse navbar-collapse" id="nav-collapse">
                     <ul class="navbar-nav mr-auto">
                        <li class="nav-item">
-                         <a class="nav-link nav-text" href="team.html" >团队介绍</a>
-                       </li>
-                       <li class="nav-item">
-                          <a class="nav-link nav-text" href="members.html" >成员</a>
-                       </li>
-                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="cooperation.html">合作</a>
-                       </li>
-                       <li class="nav-item">
-                         <a class="nav-link nav-text" href="https://github.com/InteractivePlus" target="_blank">开源</a>
+                        <a class="nav-link nav-text" href="cooperation.html">嘤嘤</a>
                        </li>
                     </ul>
                     <span class="navbar-text dropdown " >
                         <button class="btn btn-outline-primary dropdown-toggle" id="ChooseLanguage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
                         <div class="dropdown-menu" aria-labelledby="ChooseLanguage" id="LoadLanguaage">
-                            <a class="dropdown-item" id="LangSelection_Chinese" href="../?jumpLanguage=yinglish&jumpPage=index.html">嘤glish</a>
+                            <a class="dropdown-item" id="LangSelection_Chinese" href="../?jumpLanguage=cn&jumpPage=index.html">简体中文</a>
                             <a class="dropdown-item" id="LangSelection_English" href="../?jumpLanguage=en&jumpPage=index.html">English</a>
                         </div>
                     </span>
@@ -102,15 +94,27 @@
         <!-- Header End -->
         
         <!-- Banner Start -->
+        <script>
+            $(document).ready(function(){
+                var mySwiper = new Swiper (
+                    '#banner',
+                    {
+                        autoplay: true,
+                        loop: true,
+                        navigation: {
+                            nextEl: '#Banner-Button-Next',
+                            prevEl: '#Banner-Button-Prev'
+                        }
+                    }
+                );
+                if(mySwiper.slides.length <= 1){
+                    mySwiper.destroy();
+                }
+            });
+        </script>
         <div class="swiper-container" id="banner">
             <div class="swiper-wrapper" id="swipeContentHolder">
-               <script src="../dynamicData/indexslides.js"></script>
-               <script src="../js/homePageSlidesLoad.js"></script>
-               <script>
-                    $(document).ready(function(){
-                        loadIndexSlides('#banner',"#Banner-Button-Prev","#Banner-Button-Next","#swipeContentHolder","cn");
-                    });
-               </script>
+                <div class="swiper-slide" style="background-image: url('../static/slidesResources/slide1.jpg');background-size:cover;"><div class="d-flex align-items-center justify-content-center home-slide-container"><div class="container"><h2><span class="text-white">嘤嘤嘤嘤嘤嘤嘤!</span></h2><p class="pt-2"><span class="text-white">( ´•︵•` )  哼 人家拿小拳拳捶你胸口(｡•ˇ‸ˇ•｡)哼！都怪你 (`ȏ´) 也不哄哄人家(〃′o`)人家超想哭的，捶你胸口，老公！大坏蛋！！！(￣^￣)ゞ咩QAQ 捶你胸口 你好讨厌！(=ﾟωﾟ)ﾉ要抱抱嘤嘤嘤哼，人家拿小拳拳捶烂你脑袋！！！(｡• ︿•̀｡)大坏蛋(｡•ˇ‸ˇ•｡)哼!打死你(つд⊂)</span></p><p class="pt-3"><a class="btn btn-primary" role="button" href="newsdisplay.html?id=1">嘤嘤嘤嘤?</a></p></div></div></div>
             </div>
             <div class="swiper-button-prev d-none d-md-block" id="Banner-Button-Prev"></div>
             <div class="swiper-button-next d-none d-md-block" id="Banner-Button-Next"></div>
@@ -121,7 +125,7 @@
         <div class="section-text" id="section">
             <div class="container">
                 <div class="section-news" id="NewsBox">
-                    <h1 class="text-center section-text-tittle">新闻动态</h1>
+                    <h1 class="text-center section-text-tittle">嘤嘤嘤嘤</h1>
                     <div class="row">
                         <div class="col-md-3">
                             <ul class="section-news-ul" id="NewsUL1">
@@ -151,26 +155,26 @@
                 </div>
 
                 <div class="section-one">
-                    <h1 class="text-center section-text-tittle">技术驾驭<span class="text-primary">创新</span>, 数字驱动<span class="text-primary">转型</span></h1>
-                    <h2 class="text-center section-text-little-tittle">传统的商业模式正在被新技术所颠覆，同时又以一种全新的模式融合再创新</h2>
+                    <h1 class="text-center section-text-tittle">嘤嘤嘤嘤<span class="text-primary">嘤嘤</span>, 嘤嘤嘤嘤<span class="text-primary">嘤嘤</span></h1>
+                    <h2 class="text-center section-text-little-tittle">嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤, 嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</h2>
                     <div class="row mt-5" >
                         <div class="col-xs-4 col-md-6 pr-0" >
                             <img src="../static/sectionOneBG.jpg" class="rounded-left" width="100%" alt="Section Background Image">
                         </div>
                     	<div class="col-xs-10  col-md-6 bg-light rounded-right">
                             <div class="p-3">
-                                <h3 class="section-item-in-text">形随意动致力于改变世界创建和交付应用的方式，用技术的力量帮助企业实现数字化转型。</h3>
-                                <h3 class="section-item-in-text"> 准备好通向互联网之路了吗?</h3>
+                                <h3 class="section-item-in-text">嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤, 嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</h3>
+                                <h3 class="section-item-in-text"> 嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤?</h3>
                             </div>
-                            <button class="btn btn-outline-primary m-3">了解更多</button>
+                            <button class="btn btn-outline-primary m-3">嘤嘤嘤嘤</button>
                         </div>
                    </div>
                 </div>
         
                 <div class="section-two">
-                    <h1 class="text-center section-text-tittle"><span class="text-primary">简化</span>编程难度, 推动<span class="text-primary">创新</span>力量</h1>
-                    <h2 class="text-center section-text-little-tittle">形随意动致力于实践跨平台应用编写, 开发了包括EasyCrossPlatform, BoostPHP等简化程序开发的框架</h2>
-                    <h2 class="text-center section-text-little-tittle"><span style="color:chocolate">形随意动</span>让开发到部署的每个流程简单易用</h2>
+                    <h1 class="text-center section-text-tittle"><span class="text-primary">嘤嘤</span>嘤嘤嘤嘤, 嘤嘤<span class="text-primary">嘤嘤</span>嘤嘤</h1>
+                    <h2 class="text-center section-text-little-tittle">嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤, 嘤嘤嘤嘤嘤 嘤嘤嘤嘤嘤, 嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</h2>
+                    <h2 class="text-center section-text-little-tittle"><span style="color:chocolate">嘤随嘤动</span>嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</h2>
                 </div>
             </div>
         </div>
