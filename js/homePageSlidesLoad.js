@@ -1,6 +1,7 @@
-function loadIndexSlides(banner,prevBtn,nextBtn,swipeContentHolderSelector, Language){
+function loadIndexSlides(bannerSelector,prevBtnSelector,nextBtnSelector,swipeContentHolderSelector, Language){
     "use strict";
     var mySwiperBox = $(swipeContentHolderSelector);
+    var SlideCount = 0;
     for(var i=0;i<XSYD_IndexSlides.slides.length;i++){
         var ThisSlide = XSYD_IndexSlides.slides[i];
         var ThisSlideLangInfo = ThisSlide.cn;
@@ -16,7 +17,6 @@ function loadIndexSlides(banner,prevBtn,nextBtn,swipeContentHolderSelector, Lang
                 break;
         }
         if(ThisSlideLangInfo === null || ThisSlideLangInfo === undefined){
-            console.log("Empty Content, exiting");
             continue;
         }
         var ButtonCodes = "";
@@ -44,16 +44,17 @@ function loadIndexSlides(banner,prevBtn,nextBtn,swipeContentHolderSelector, Lang
                     '</div>' +
                 '</div>' +
             '</div>'
-        )
+        );
+        SlideCount++;
     }
     var mySwiper = new Swiper (
-        banner,
+        bannerSelector,
         {
-            autoplay: true,
+            autoplay: (SlideCount > 1 ? true : false),
             loop: true,
             navigation: {
-                nextEl: nextBtn,
-                prevEl: prevBtn
+                nextEl: nextBtnSelector,
+                prevEl: prevBtnSelector
             }
         }
     );
