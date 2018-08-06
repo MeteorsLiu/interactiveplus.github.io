@@ -207,6 +207,22 @@ var XSYD_MemberInfos = {
             github: "zHElEARN",
             qq:"501088732",
             portrait: "501088732.jpg"
+        },
+        {
+            //AuthorID: 13,
+            cn:{
+                displayName: "阿淼",
+                role: "成员",
+                skills: "Java, 安卓, 前端"
+            },
+            en:{
+                displayName: "MXPlayer",
+                role: "Member",
+                skills: "Java, Android, Front-end"
+            },
+            github: "MXAM",
+            qq: "765519741",
+            portrait: "765519741.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
