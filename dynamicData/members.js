@@ -140,7 +140,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Flat Design, Documents"
             },
-            github: null,
+            github: "AomiRaku",
             qq: "1664147500",
             portrait: "1664147500.jpg"
         },
