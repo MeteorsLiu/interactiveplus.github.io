@@ -16,8 +16,8 @@ var XSYD_IndexSlides = {
                 description: '<span class="text-black">Our APP Readin developed by Dimo Jang is now availble in Microsoft Store</span>',
                 disableArticleButton: true,
                 customButton: true,
-                customButtonURL: "http://dimojang.com/rz/",
-                customButtonText: "View Product Info (Simplified Chinese)",
+                customButtonURL: "https://www.microsoft.com/en-us/p/readin/9nx3jtgvpl27?rtc=1/",
+                customButtonText: "Microsoft Store",
                 articleIDRelated: -1
             }
         },
