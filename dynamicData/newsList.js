@@ -44,6 +44,14 @@ var XSYD_News = {
                 showOnIndexNews: true,
                 isURLAbsolute: false,
                 AuthorID: 0
+            },
+            en:{
+                title: "InterActive+ 2019 Recruit Info",
+                briefDescription: "InterActive+ was established 5 years ago by 2013. As we are reaching the year of 2019, we are eager to expand our team sizes and welcome new members of this team.",
+                articleURL: "2_InteractivePlusRecruit_EN.html",
+                showOnIndexNews: true,
+                isURLAbsolute: false,
+                AuthorID: 0
             }
         }
     ],

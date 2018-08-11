@@ -32,6 +32,15 @@ var XSYD_IndexSlides = {
                 customButtonText: null,
                 articleIDRelated: 2
             },
+            en:{
+                title: '<span class="text-black">InterActive+ is recruiting!</span>',
+                description: '<span class="text-black">We are ready to welcome you in the year of 2019!</span>',
+                disableArticleButton: false,
+                customButton: false,
+                customButtonURL: null,
+                customButtonText: null,
+                articleIDRelated: 2
+            }
         },
         {
             backgroundImage: "static/slidesResources/slide1.jpg",
