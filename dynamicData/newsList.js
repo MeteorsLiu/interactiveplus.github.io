@@ -53,6 +53,24 @@ var XSYD_News = {
                 isURLAbsolute: false,
                 AuthorID: 0
             }
+        },
+        { //articleID = 3
+            cn:{
+                title: "暑假项目盘点",
+                briefDescription: "这个暑假咱们工作室做了许多比较有意义的事情.",
+                articleURL: "3_WhatDoWeDoDuringSummer2018_CN.html",
+                showOnIndexNews: true,
+                isURLAbsolute: false,
+                ArthorID: 0
+            },
+            en:{
+                title: "Summer Projects",
+                briefDescription: "We had a wonderful summer together in 2018, and made something amazing.",
+                articleURL: "3_WhatDoWeDoDuringSummer2018_EN.html",
+                showOnIndexNews: true,
+                isURLAbsolute: false,
+                ArthorID: 0
+            }
         }
     ],
     articlesBaseURL: "dynamicData/articles/"
