@@ -61,7 +61,7 @@ var XSYD_News = {
                 articleURL: "3_WhatDoWeDoDuringSummer2018_CN.html",
                 showOnIndexNews: true,
                 isURLAbsolute: false,
-                ArthorID: 0
+                AuthorID: 0
             },
             en:{
                 title: "Summer Projects",
@@ -69,7 +69,7 @@ var XSYD_News = {
                 articleURL: "3_WhatDoWeDoDuringSummer2018_EN.html",
                 showOnIndexNews: true,
                 isURLAbsolute: false,
-                ArthorID: 0
+                AuthorID: 0
             }
         }
     ],
