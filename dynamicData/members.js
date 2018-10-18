@@ -124,7 +124,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, C#, OIER, Embedded"
             },
-            github: null,
+            github: "MaxRel",
             qq: "2716790565",
             portrait: "2716790565.jpg"
         },
