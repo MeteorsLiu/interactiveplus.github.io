@@ -20,7 +20,7 @@ function loadIndexSlides(bannerSelector,prevBtnSelector,nextBtnSelector,swipeCon
             continue;
         }
         var ButtonCodes = "";
-        if((!ThisSlideLangInfo.disableArticleButton) && ThisSlideLangInfo.articleIDRelated !== null & ThisSlideLangInfo.articleIDRelated !== undefined){
+        if((!ThisSlideLangInfo.disableArticleButton) && ThisSlideLangInfo.articleIDRelated !== null && ThisSlideLangInfo.articleIDRelated !== undefined){
             ButtonCodes += '<a class="btn btn-primary" role="button" href="' + XSYD_WebSettings.newsPage + ThisSlideLangInfo.articleIDRelated + '">' + MoreInfoBtnText + '</a>';
         }
         if(ThisSlideLangInfo.customButton){
