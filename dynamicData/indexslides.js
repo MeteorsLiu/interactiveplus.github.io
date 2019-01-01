@@ -43,24 +43,24 @@ var XSYD_IndexSlides = {
             }
         },
         {
-            backgroundImage: "static/slidesResources/slide1.jpg",
+            backgroundImage: "static/slidesResources/slide_newyear.png",
             cn:{
-                title: '<span class="text-white">形随意动新官网上线!</span>',
-                description: '<span class="text-white">就在今天, 形随意动的新官网上线了, 让我们一起庆祝这一伟大时刻!</span>',
+                title: '',
+                description: '',
                 disableArticleButton: false,
                 customButton: false,
                 customButtonURL: null,
                 customButtonText: null,
-                articleIDRelated: 1
+                articleIDRelated: null
             },
             en:{
-                title: '<span class="text-white">We launched our new website!</span>',
-                description: '<span class="text-white">Interactive+ launched its new website today, let\'s celebrate this glory moment!</span>',
+                title: '',
+                description: '',
                 disableArticleButton: false,
                 customButton: false,
                 customButtonURL: null,
                 customButtonText: null,
-                articleIDRelated: 1
+                articleIDRelated: null
             }
         }
     ]
