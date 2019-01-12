@@ -223,6 +223,21 @@ var XSYD_MemberInfos = {
             github: "MXAM",
             qq: "765519741",
             portrait: "765519741.jpg"
+        },
+        {
+            cn:{
+                displayName: "Penguin.L",
+                role: "成员",
+                skills: "文档"
+            },
+            en:{
+                displayName: "Penguin.L",
+                role: "Member",
+                skills: "Documents"
+            },
+            github: "PenguinL",
+            qq: "1770167998",
+            portrait: "1770167998.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
