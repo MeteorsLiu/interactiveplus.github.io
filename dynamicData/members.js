@@ -225,6 +225,7 @@ var XSYD_MemberInfos = {
             portrait: "765519741.jpg"
         },
         {
+            //AuthorID: 14
             cn:{
                 displayName: "Penguin.L",
                 role: "成员",
@@ -238,6 +239,22 @@ var XSYD_MemberInfos = {
             github: "PenguinL",
             qq: "1770167998",
             portrait: "1770167998.jpg"
+        },
+        {
+            //AuthorID: 15
+            cn:{
+                displayName: "洛冷",
+                role: "成员",
+                skills: "PR / AE / PS"
+            },
+            en:{
+                displayName: "Cool Luo",
+                role: "Member",
+                skills: "PR / AE / PS"
+            },
+            github: null,
+            qq: "2923085363",
+            portrait: "2923085363.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
