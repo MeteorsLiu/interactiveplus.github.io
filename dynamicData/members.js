@@ -261,16 +261,32 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "方程",
                 role: "成员",
-                skills: "Arduino,Fusion360,平面设计"
+                skills: "C++,Unity,平面设计"
             },
             en:{
                 displayName: "Equation",
                 role: "Member",
-                skills: "Arduino,Fusion360,Flat Design"
+                skills: "C++,Unity,Flat Design"
             },
             github: null,
             qq: "1831305534",
             portrait: "1831305534.jpg"
+        },
+        {
+            //AuthorID: 17
+            cn:{
+                displayName: "狗",
+                role: "成员",
+                skills: "Arduino,Fusion360"
+            },
+            en:{
+                displayName: "Doge",
+                role: "Member",
+                skills: "Arduino,Fusion360"
+            },
+            github: null,
+            qq: "1579569765",
+            portrait: "1579569765.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
