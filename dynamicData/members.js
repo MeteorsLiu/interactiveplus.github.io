@@ -280,7 +280,7 @@ var XSYD_MemberInfos = {
                 skills: "Arduino,Fusion360"
             },
             en:{
-                displayName: "Doge",
+                displayName: "Dog",
                 role: "Member",
                 skills: "Arduino,Fusion360"
             },
