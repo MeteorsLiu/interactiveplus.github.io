@@ -255,6 +255,22 @@ var XSYD_MemberInfos = {
             github: null,
             qq: "2923085363",
             portrait: "2923085363.jpg"
+        },
+        {
+            //AuthorID: 16
+            cn:{
+                displayName: "方程",
+                role: "成员",
+                skills: "Arduino,Fusion360,平面设计"
+            },
+            en:{
+                displayName: "Equation",
+                role: "Member",
+                skills: "Arduino,Fusion360,Flat Design"
+            },
+            github: null,
+            qq: "1831305534",
+            portrait: "1831305534.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
