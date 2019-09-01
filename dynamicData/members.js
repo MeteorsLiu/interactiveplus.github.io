@@ -245,12 +245,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "洛冷",
                 role: "成员",
-                skills: "PR / AE / PS"
+                skills: "PR, AE, PS"
             },
             en:{
                 displayName: "Cool Luo",
                 role: "Member",
-                skills: "PR / AE / PS"
+                skills: "PR, AE, PS"
             },
             github: null,
             qq: "2923085363",
@@ -261,14 +261,14 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "方程",
                 role: "成员",
-                skills: "C++,Unity,平面设计"
+                skills: "C++, Unity, 平面设计"
             },
             en:{
                 displayName: "Equation",
                 role: "Member",
-                skills: "C++,Unity,Flat Design"
+                skills: "C++, Unity, Flat Design"
             },
-            github: null,
+            github: "Yoorkin",
             qq: "1831305534",
             portrait: "1831305534.jpg"
         },
@@ -277,12 +277,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "狗",
                 role: "成员",
-                skills: "Arduino,Fusion360"
+                skills: "Arduino, Fusion360"
             },
             en:{
-                displayName: "Dog",
+                displayName: "Billy",
                 role: "Member",
-                skills: "Arduino,Fusion360"
+                skills: "Arduino, Fusion360"
             },
             github: null,
             qq: "1579569765",
