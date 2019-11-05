@@ -1,5 +1,5 @@
 
-function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
+function LoadArticle(TitleSelector, TitleAppendBefore, TitleAppendAfter,NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     var mNewsContentBox = $(NewsContentSelector);
     var mArticle = XSYD_News.newsList[articleID];
     if(mArticle === null || mArticle === undefined){
@@ -64,6 +64,15 @@ function LoadArticle(NewsContentSelector,NewsAuthorSelector,articleID,Lang){
     '</div>';
     if(NewsAuthorSelector !== null && NewsAuthorSelector !== undefined){
         $(NewsAuthorSelector).append(ArticleAuthorDisplayCode);
+    }
+    if(TitleSelector !== null && TitleSelector !== undefined){
+        if(TitleAppendBefore === null || TitleAppendBefore === undefined){
+            TitleAppendBefore = "";
+        }
+        if(TitleAppendAfter === null || TitleAppendAfter === undefined){
+            TitleAppendAfter = "";
+        }
+        $(TitleSelector).html(TitleAppendBefore + mArticleLangInfo.title + TitleAppendAfter);
     }
     appendSelectorWithRemoteContent(NewsContentSelector,mArticleURL);
     return true;
