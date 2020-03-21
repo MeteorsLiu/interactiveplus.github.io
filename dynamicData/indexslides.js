@@ -43,7 +43,7 @@ var XSYD_IndexSlides = {
             }
         },
         {
-            backgroundImage: "static/slidesResources/slide_newyear.png",
+            backgroundImage: "static/slidesResources/slide_pandemic.png",
             cn:{
                 title: '',
                 description: '',
