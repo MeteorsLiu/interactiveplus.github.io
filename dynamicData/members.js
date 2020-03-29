@@ -12,7 +12,6 @@ var XSYD_MemberInfos = {
                 role: "Team Founder",
                 skills: "Website Front-end, PHP, C++, Arduino, Linux Operation"
             },
-            blog: "###",
             github: "ToiletCommander",
             qq: "1745500559",
             portrait: "1745500559.jpg"
@@ -29,7 +28,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Arduino, C++, Documents"
             },
-            blog: "###",
             github: "weypro",
             qq: "2284938880",
             portrait: "2284938880.jpg"
@@ -80,7 +78,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Python, Website Front-end"
             },
-            blog: "###",
             github: "Caoblocks",
             qq: "318515692",
             portrait: "318515692.jpg"
@@ -97,7 +94,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Website Front-end, PHP, Linux Operation"
             },
-            blog: "###",
             github: "GuoHaoLan",
             qq: "1156521060",
             portrait: "1156521060.jpg"
@@ -114,7 +110,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++"
             },
-            blog: "###",
             github: "EquationWalker",
             qq: "1579664489",
             portrait: "1579664489.jpg"
@@ -131,7 +126,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, C#, OIER, Embedded"
             },
-            blog: "###",
             github: "MaxRel",
             qq: "2716790565",
             portrait: "2716790565.jpg"
@@ -148,7 +142,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Flat Design, Documents"
             },
-            blog: "###",
             github: "AomiRaku",
             qq: "1664147500",
             portrait: "1664147500.jpg"
@@ -165,7 +158,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Website Front-end, PHP, C++"
             },
-            blog: "###",
             github: "wi1dcard",
             qq: "122078472",
             portrait: "122078472.jpg"
@@ -182,7 +174,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Java, Website Front-end"
             },
-            blog: "###",
             github: "ansiiw",
             qq: "1294297705",
             portrait: "1294297705.jpg"
@@ -199,7 +190,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Drawing, Design, Website Front-end"
             },
-            blog: "###",
             github: "toyiff",
             qq: "1651429093",
             portrait: "1651429093.jpg"
@@ -216,7 +206,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Java"
             },
-            blog: "###",
             github: "zHElEARN",
             qq:"501088732",
             portrait: "501088732.jpg"
@@ -233,7 +222,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Java, Android, Front-end"
             },
-            blog: "###",
             github: "MXAM",
             qq: "765519741",
             portrait: "765519741.jpg"
@@ -250,7 +238,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Documents"
             },
-            blog: "###",
             github: "PenguinL",
             qq: "1770167998",
             portrait: "1770167998.jpg"
@@ -267,7 +254,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "PR, AE, PS"
             },
-            blog: "###",
             github: null,
             qq: "2923085363",
             portrait: "2923085363.jpg"
@@ -284,7 +270,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Unity, Flat Design"
             },
-            blog: "###",
             github: "Yoorkin",
             qq: "1831305534",
             portrait: "1831305534.jpg"
@@ -301,7 +286,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "Arduino, Fusion360"
             },
-            blog: "###",
             github: null,
             qq: "1579569765",
             portrait: "1579569765.jpg"
@@ -318,7 +302,6 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Web, ASM"
             },
-            blog: "###",
             github: "Duronsoft",
             qq: "1962227646",
             portrait: "1962227646.jpg"
