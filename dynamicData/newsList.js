@@ -38,27 +38,9 @@ var XSYD_News = {
         },
         { //articleID = 2
             cn:{
-                title: "形随意动2019招新信息",
-                briefDescription: "形随意动从2013年成立到如今已经有5个年头了, 在2019新年之际, 我们愿意以自己的热诚接待新人.",
-                articleURL: "2_InteractivePlusRecruit_CN.html",
-                showOnIndexNews: true,
-                isURLAbsolute: false,
-                AuthorID: 0
-            },
-            en:{
-                title: "InterActive+ 2019 Recruit Info",
-                briefDescription: "InterActive+ was established 5 years ago by 2013. As we are reaching the year of 2019, we are eager to expand our team sizes and welcome new members of this team.",
-                articleURL: "2_InteractivePlusRecruit_EN.html",
-                showOnIndexNews: true,
-                isURLAbsolute: false,
-                AuthorID: 0
-            }
-        },
-        { //articleID = 3
-            cn:{
                 title: "暑假项目盘点",
                 briefDescription: "这个暑假咱们工作室做了许多比较有意义的事情.",
-                articleURL: "3_WhatDoWeDoDuringSummer2018_CN.html",
+                articleURL: "2_WhatDoWeDoDuringSummer2018_CN.html",
                 showOnIndexNews: true,
                 isURLAbsolute: false,
                 AuthorID: 0
@@ -66,12 +48,31 @@ var XSYD_News = {
             en:{
                 title: "Summer Projects",
                 briefDescription: "We had a wonderful summer together in 2018, and made something amazing.",
-                articleURL: "3_WhatDoWeDoDuringSummer2018_EN.html",
+                articleURL: "2_WhatDoWeDoDuringSummer2018_EN.html",
                 showOnIndexNews: true,
                 isURLAbsolute: false,
                 AuthorID: 0
             }
-        }
+        },
+		
+		{ //articleID = 3
+		    cn:{
+		        title: "形随意动2020招新信息",
+		        briefDescription: "形随意动从2013年成立到如今已经有6个年头了, 在2020新年之际, 我们愿意以自己的热诚接待新人.",
+		        articleURL: "3_InteractivePlusRecruit_CN.html",
+		        showOnIndexNews: true,
+		        isURLAbsolute: false,
+		        AuthorID: 0
+		    },
+		    en:{
+		        title: "InterActive+ 2020 Recruit Info",
+		        briefDescription: "InterActive+ was established 6 years ago by 2013. As we are reaching the year of 2019, we are eager to expand our team sizes and welcome new members of this team.",
+		        articleURL: "3_InteractivePlusRecruit_EN.html",
+		        showOnIndexNews: true,
+		        isURLAbsolute: false,
+		        AuthorID: 0
+		    }
+		}
     ],
     articlesBaseURL: "dynamicData/articles/"
 };
