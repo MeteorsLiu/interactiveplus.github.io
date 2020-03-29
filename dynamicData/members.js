@@ -56,7 +56,7 @@ var XSYD_MemberInfos = {
                 skills: "C#, Python, Linux运维"
             },
             en:{
-                displayName: "Dimo Jang",
+                displayName: "DIMOJANG",
                 role: "Member",
                 skills: "C#, Python, Linux Operation"
             },
