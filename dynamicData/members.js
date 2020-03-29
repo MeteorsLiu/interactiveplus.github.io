@@ -270,6 +270,7 @@ var XSYD_MemberInfos = {
                 role: "Member",
                 skills: "C++, Unity, Flat Design"
             },
+            blog: "http://yorkin.cool/",
             github: "Yoorkin",
             qq: "1831305534",
             portrait: "1831305534.jpg"
