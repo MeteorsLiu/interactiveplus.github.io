@@ -53,12 +53,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "迪莫",
                 role: "成员",
-                skills: "C#, Arduino, Linux运维"
+                skills: "C#, Python, Linux运维"
             },
             en:{
                 displayName: "Dimo Jang",
                 role: "Member",
-                skills: "C#, Arduino, Linux Operation"
+                skills: "C#, Python, Linux Operation"
             },
             github: "dimojang",
             qq: "2529874419",
@@ -287,6 +287,22 @@ var XSYD_MemberInfos = {
             github: null,
             qq: "1579569765",
             portrait: "1579569765.jpg"
+        },
+        {
+            //AuthorID: 18
+            cn:{
+                displayName: "AlvinLIQ",
+                role: "成员",
+                skills: "C++, Web, ASM"
+            },
+            en:{
+                displayName: "AlvinLIQ",
+                role: "Member",
+                skills: "C++, Web, ASM"
+            },
+            github: "Duronsoft",
+            qq: "1962227646",
+            portrait: "1962227646.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
