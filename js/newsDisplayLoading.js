@@ -44,7 +44,11 @@ function LoadArticle(TitleSelector, TitleAppendBefore, TitleAppendAfter,NewsCont
     }
     var ArticleAuthorDisplayCode = 
     '<div class="text-center section-two-item">' +
-        '<img src="' + "../" + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' +
+        (mArticleAuthor.blog == null ? 
+            ('<img src="' +  "../" + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />') : 
+            ('<a href="'+ mArticleAuthor.blog +'" target="_blank">' + 
+                '<img src="' +  "../" + XSYD_MemberInfos.portraitBaseURL + mArticleAuthor.portrait + '" class="rounded-circle w-50" />' + 
+            '</a>')) +
         '<div class="mt-3">' +
             '<h3 class="member-name">' + mArticleAuthorLangInfo.displayName + '</h3>' +
             '<p class="member-intro">' + mArticleAuthorLangInfo.role + '</p>' + 
