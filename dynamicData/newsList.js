@@ -72,7 +72,17 @@ var XSYD_News = {
 		        isURLAbsolute: false,
 		        AuthorID: 0
 		    }
-		}
+        },
+        { //articleID = 4
+            cn:{
+                title: "应对Covid-19, 我们做了什么",
+                briefDescription: "随着这次新冠疫情的形势在全球范围内愈发严重，形随意动为科研圈尽了自己的一份力.",
+                articleURL: "4_Covid19AndOurResponse_CN.html",
+                showOnIndexNews: true,
+                isURLAbsolute: false,
+                AuthorID: 8
+            }
+        }
     ],
     articlesBaseURL: "dynamicData/articles/"
 };
