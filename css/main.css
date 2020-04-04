@@ -9,7 +9,6 @@ html {
     color: #888888;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    filter:grayscale(100%) !important;
 }
 
 body.has-navbar-top{
