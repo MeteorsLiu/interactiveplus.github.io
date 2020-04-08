@@ -101,22 +101,6 @@ var XSYD_MemberInfos = {
         {
             //AuthorID: 6,
             cn:{
-                displayName: "幻杀",
-                role: "成员",
-                skills: "C++"
-            },
-            en:{
-                displayName: "Assassin",
-                role: "Member",
-                skills: "C++"
-            },
-            github: "EquationWalker",
-            qq: "1579664489",
-            portrait: "1579664489.jpg"
-        },
-        {
-            //AuthorID: 7,
-            cn:{
                 displayName: "Max",
                 role: "成员",
                 skills: "C++, C#, OIER, 嵌入式"
@@ -131,7 +115,7 @@ var XSYD_MemberInfos = {
             portrait: "2716790565.jpg"
         },
         {
-            //AuthorID: 8,
+            //AuthorID: 7,
             cn:{
                 displayName: "Raku洛",
                 role: "成员",
@@ -147,55 +131,7 @@ var XSYD_MemberInfos = {
             portrait: "1664147500.jpg"
         },
         {
-            //AuthorID: 9,
-            cn:{
-                displayName: "船歌",
-                role: "成员",
-                skills: "网页前端, PHP, C++"
-            },
-            en:{
-                displayName: "Chuange",
-                role: "Member",
-                skills: "Website Front-end, PHP, C++"
-            },
-            github: "wi1dcard",
-            qq: "122078472",
-            portrait: "122078472.jpg"
-        },
-        {
-            //AuthorID: 10,
-            cn:{
-                displayName: "葫芦娃",
-                role: "成员",
-                skills: "Java, 网页前端"
-            },
-            en:{
-                displayName: "Calabash",
-                role: "Member",
-                skills: "Java, Website Front-end"
-            },
-            github: "ansiiw",
-            qq: "1294297705",
-            portrait: "1294297705.jpg"
-        },
-        {
-            //AuthorID: 11,
-            cn:{
-                displayName: "仅一凡人",
-                role: "成员",
-                skills: "绘画, 设计, 网页前端"
-            },
-            en:{
-                displayName: "OneRice",
-                role: "Member",
-                skills: "Drawing, Design, Website Front-end"
-            },
-            github: "toyiff",
-            qq: "1651429093",
-            portrait: "1651429093.jpg"
-        },
-        {
-            //AuthorID: 12,
+            //AuthorID: 8,
             cn:{
                 displayName: "Zhe_Learn",
                 role: "成员",
@@ -211,7 +147,7 @@ var XSYD_MemberInfos = {
             portrait: "501088732.jpg"
         },
         {
-            //AuthorID: 13,
+            //AuthorID: 9,
             cn:{
                 displayName: "阿淼",
                 role: "成员",
@@ -227,7 +163,7 @@ var XSYD_MemberInfos = {
             portrait: "765519741.jpg"
         },
         {
-            //AuthorID: 14
+            //AuthorID: 10
             cn:{
                 displayName: "Penguin.L",
                 role: "成员",
@@ -243,7 +179,7 @@ var XSYD_MemberInfos = {
             portrait: "1770167998.jpg"
         },
         {
-            //AuthorID: 15
+            //AuthorID: 11
             cn:{
                 displayName: "洛冷",
                 role: "成员",
@@ -259,7 +195,7 @@ var XSYD_MemberInfos = {
             portrait: "2923085363.jpg"
         },
         {
-            //AuthorID: 16
+            //AuthorID: 12
             cn:{
                 displayName: "方程",
                 role: "成员",
@@ -272,11 +208,11 @@ var XSYD_MemberInfos = {
             },
             blog: "http://yorkin.cool/",
             github: "Yoorkin",
-            qq: "1831305534",
+            qq: "1831305534", 
             portrait: "1831305534.jpg"
         },
         {
-            //AuthorID: 17
+            //AuthorID: 13
             cn:{
                 displayName: "狗",
                 role: "成员",
@@ -292,7 +228,7 @@ var XSYD_MemberInfos = {
             portrait: "1579569765.jpg"
         },
         {
-            //AuthorID: 18
+            //AuthorID: 14
             cn:{
                 displayName: "AlvinLIQ",
                 role: "成员",
