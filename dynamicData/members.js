@@ -117,12 +117,12 @@ var XSYD_MemberInfos = {
         {
             //AuthorID: 7,
             cn:{
-                displayName: "Raku洛",
+                displayName: "千景Raku",
                 role: "成员",
                 skills: "平面设计, 文档"
             },
             en:{
-                displayName: "Raku Luo",
+                displayName: "Aomizu Raku",
                 role: "Member",
                 skills: "Flat Design, Documents"
             },
