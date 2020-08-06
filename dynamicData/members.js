@@ -242,6 +242,22 @@ var XSYD_MemberInfos = {
             github: "Duronsoft",
             qq: "1962227646",
             portrait: "1962227646.jpg"
+        },
+        {
+            //AuthorID: 15
+            cn:{
+                displayName: "冰棍",
+                role: "成员",
+                skills: "C++, Web"
+            },
+            en:{
+                displayName: "IceLolly",
+                role: "Member",
+                skills: "C++, Web"
+            },
+            github: "SweetIceLolly",
+            qq: "1257472418",
+            portrait: "1257472418.jpg"
         }
     ],
     portraitBaseURL: "static/TX/"
