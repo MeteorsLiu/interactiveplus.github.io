@@ -248,12 +248,12 @@ var XSYD_MemberInfos = {
             cn:{
                 displayName: "冰棍",
                 role: "成员",
-                skills: "C++, Web"
+                skills: "C, Web"
             },
             en:{
                 displayName: "IceLolly",
                 role: "Member",
-                skills: "C++, Web"
+                skills: "C, Web"
             },
             github: "SweetIceLolly",
             qq: "1257472418",
