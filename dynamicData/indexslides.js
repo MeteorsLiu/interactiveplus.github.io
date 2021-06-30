@@ -24,22 +24,13 @@ var XSYD_IndexSlides = {
 		{
 		    backgroundImage: "static/slidesResources/slide2.jpg",
 		    cn:{
-		        title: '<span class="text-black">形随意动招新!</span>',
-		        description: '<span class="text-black">我们已经准备好在2020年迎接新人了!</span>',
-		        disableArticleButton: false,
-		        customButton: false,
-		        customButtonURL: null,
-		        customButtonText: null,
-		        articleIDRelated: 2
-		    },
-		    en:{
-		        title: '<span class="text-black">InterActive+ is recruiting!</span>',
-		        description: '<span class="text-black">We are ready to welcome you in the year of 2020!</span>',
-		        disableArticleButton: false,
-		        customButton: false,
-		        customButtonURL: null,
-		        customButtonText: null,
-		        articleIDRelated: 2
+		        title: '<span class="text-black">2021夏4周冲刺活动!</span>',
+		        description: '<span class="text-black">会编程不会写软件? 4周冲刺活动来帮你!</span>',
+		        disableArticleButton: true,
+		        customButton: true,
+		        customButtonURL: "https://www.interactiveplus.org/2021Sum4WeekSprint-Release",
+		        customButtonText: "查看活动详情",
+		        articleIDRelated: null
 		    }
 		},
         {
