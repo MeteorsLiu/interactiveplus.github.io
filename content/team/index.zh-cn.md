@@ -4,12 +4,9 @@ showtitle: false
 date: 2019-08-02T11:04:49+08:00
 draft: false
 description: "关于 LoveIt"
-images: ["/Apple-Devices-Preview.png"]
 
 lightgallery: true
 
-math:
-  enable: true
 ---
 <div class="text-center my-6">
     <h1 class="section-text-tittle text-3xl my-5">形随意动介绍</h1>
@@ -76,7 +73,7 @@ math:
 
 ## 时间轴
 
-{{< display_team_timeline >}}
+<display_team_timeline>
 
 ## 联系我们
 - 公众号
