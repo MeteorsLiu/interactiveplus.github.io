@@ -62,15 +62,16 @@ npx http-server -p 8888
 推荐在参与开发前浏览以下链接
 
 主要参考
-https://cloud.tencent.com/developer/article/1932812
-https://functional.style/hugo/general/tailwind/
-https://github.com/cromozooom/playground-hugo/tree/q69810554
-https://medium.com/gumgum-tech/faster-development-experience-with-vite-hugo-and-preact-c08cbcfce5fb
-https://zhuanlan.zhihu.com/p/568764664
-https://stackoverflow.com/questions/47749732/hugo-include-node-module-in-static-js
 
-次要参考
-https://juejin.cn/post/6854573220306255880
+https://cloud.tencent.com/developer/article/1932812  
+https://functional.style/hugo/general/tailwind/  
+https://github.com/cromozooom/playground-hugo/tree/q69810554  
+https://medium.com/gumgum-tech/faster-development-experience-with-vite-hugo-and-preact-c08cbcfce5fb  
+https://zhuanlan.zhihu.com/p/568764664  
+https://stackoverflow.com/questions/47749732/hugo-include-node-module-in-static-js  
+
+次要参考  
+https://juejin.cn/post/6854573220306255880  
 https://stackoverflow.com/questions/37261016/npm-plugin-onchange-does-not-recognize-scss-files-changes
 
 
