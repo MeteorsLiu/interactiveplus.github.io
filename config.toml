@@ -1,11 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.interactiveplus.org//"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
 # website title
-title = "形随意动"
-temptitle = "形随意动"
+title = "形随意动 - 科技改变未来"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "zh-CN"
@@ -88,11 +87,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "My cool site"
+  title = "形随意动"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Technology changes the future."
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/favicon.png"]
 
   # Header config
   [params.header]
@@ -152,7 +151,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My cool site"
+    title = "形随意动"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files

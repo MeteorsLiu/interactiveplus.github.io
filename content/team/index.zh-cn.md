@@ -73,7 +73,7 @@ lightgallery: true
 
 ## 时间轴
 
-<display_team_timeline>
+{{< display_team_timeline >}}
 
 ## 联系我们
 - 公众号
