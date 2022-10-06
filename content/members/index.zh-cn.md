@@ -22,5 +22,5 @@ lightgallery: true
 </div>
 
 
-<display_members>
+{{< display_members >}}
 
