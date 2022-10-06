@@ -1,0 +1,58 @@
+@import "assets/css/_variables.scss";
+
+
+.page {
+    max-width: 80vw;
+}
+
+.member-display {
+    .member-display-wrapper {
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px 20px;
+        grid-auto-rows: auto-fit;
+    }
+
+    .item {
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 400;
+
+        .info {
+            margin-top: 1rem;
+        }
+
+        .headpic {
+            width: 7.9rem;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .member-name {
+            font-size: 1.75rem;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-intro {
+            color: #8a9399;
+            font-size: 14px;
+
+            [theme="dark"] & {
+                color: $global-font-color-dark;
+            }
+        }
+
+        .member-icon {
+            a {
+                color: $global-font-color;
+
+                [theme="dark"] & {
+                    color: $global-font-color-dark;
+                }
+            }
+        }
+    }
+}

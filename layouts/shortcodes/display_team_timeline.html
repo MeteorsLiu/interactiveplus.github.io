@@ -1,0 +1,12 @@
+{{ $data := $.Site.Language.Lang | printf "/data/team_timeline.%s.json" | getJSON }}
+
+{{ $style := resources.Get "localscss/team.scss" | resources.ToCSS | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" scoped>
+
+<div class="member-display">
+    <div class="member-display-wrapper">
+        {{ range $data }}
+        <p>{{ . }}</p>
+        {{ end }}
+    </div>
+</div>

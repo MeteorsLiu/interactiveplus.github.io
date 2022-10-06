@@ -1,0 +1,20 @@
+{{- $profile := .Site.Params.home.profile -}}
+
+    <section id="hero" class="hero flex items-center">
+        <!-- 让未来，能成为你期待的样子 -->
+        <div class="hero-wrapper">
+            <div>
+                <h1 data-aos="fade-up">{{ $profile.title | safeHTML }}</h1>
+                <h2 data-aos="fade-up" data-aos-delay="200">{{ $profile.subtitle | safeHTML }}</h2>
+            </div>
+            <div class="flex-1 flex-shrink-0 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                <img src="/img/homebg.svg" class="img-fluid mx-auto" alt="">
+            </div>
+        </div>
+        <div>
+            <span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                <i class="iconfont icon-xiangxiajiantou newchevron"></i>
+            </span>
+        </div>
+    </section>
+

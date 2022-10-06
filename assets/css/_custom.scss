@@ -1,0 +1,54 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+@import 'scrollbar';
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    line-height: normal;
+
+    .section-container{
+        padding: 0 1.75rem 0;
+    }
+    
+    .section-text-tittle {
+        font-size: 2.4rem;
+        color: $home-section-title-color;
+
+        [theme=dark] & {
+            color: $global-font-color-dark;
+        }
+    }
+
+    .section-text-little-tittle {
+        font-size: 1.4rem;
+    }
+
+    h1{
+        margin: 0.67em 0;
+    }
+
+    .container{
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.section--intro{
+    margin:0 auto 0;
+    max-width: 960px;
+}
+
+.text-primary {
+    color: $light-blue;
+}

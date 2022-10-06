@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "dev:hugo-watch": "onchange \"content/**/*.md\" \"config.toml\" \"layouts/**\" \"assets/**\" \"data/**\" -- npm run build:hugo",
+    "dev:vite": "vite --host",
+    "dev": "npm run build:hugo && run-p dev:**",
+    "build:hugo": "hugo -d public",
+    "build:vite": "vite build",
+    "build": "run-s build:*"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "autoprefixer": "^10.4.12",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vite-hugo-plugin": "^3.0.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

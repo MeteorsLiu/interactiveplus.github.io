@@ -1,0 +1,136 @@
+{
+    "memberlist": [
+        {
+            "displayName": "老秋风",
+            "role": "团队负责人",
+            "skills": "网页前端, PHP, C++, Arduino, Linux运维",
+            "github": "ToiletCommander",
+            "qq": "1745500559",
+            "portrait": "1745500559.jpg"
+        },
+        {
+            "displayName": "Wey",
+            "role": "成员",
+            "skills": "网页前端, C++, 嵌入式",
+            "github": "weypro",
+            "qq": "2284938880",
+            "portrait": "2284938880.jpg"
+        },
+        {
+            "displayName": "沉默",
+            "role": "成员",
+            "skills": "网页前端, PHP, 51单片机",
+            "blog": "https://cmjang.github.io",
+            "github": "cmjang",
+            "qq": "1924286463",
+            "portrait": "1924286463.jpg"
+        },
+        {
+            "displayName": "迪莫",
+            "role": "成员",
+            "skills": "C#, Python, Linux运维",
+            "blog": "https://www.dimojang.com",
+            "github": "dimojang",
+            "qq": "2529874419",
+            "portrait": "2529874419.jpg"
+        },
+        {
+            "displayName": "小小白",
+            "role": "成员",
+            "skills": "C++, Python, 前端",
+            "github": "Caoblocks",
+            "qq": "318515692",
+            "portrait": "318515692.jpg"
+        },
+        {
+            "displayName": "流星",
+            "role": "成员",
+            "skills": "网页前端, PHP, Linux运维",
+            "github": "GuoHaoLan",
+            "qq": "1156521060",
+            "portrait": "1156521060.jpg"
+        },
+        {
+            "displayName": "Max",
+            "role": "成员",
+            "skills": "C++, C#, OIER, 嵌入式",
+            "github": "MaxRel",
+            "qq": "2716790565",
+            "portrait": "2716790565.jpg"
+        },
+        {
+            "displayName": "千景Raku",
+            "role": "成员",
+            "skills": "平面设计, 文档",
+            "github": "AomiRaku",
+            "qq": "1664147500",
+            "portrait": "1664147500.jpg"
+        },
+        {
+            "displayName": "Zhe_Learn",
+            "role": "成员",
+            "skills": "C++, Java",
+            "github": "zHElEARN",
+            "qq": "501088732",
+            "portrait": "501088732.jpg"
+        },
+        {
+            "displayName": "阿淼",
+            "role": "成员",
+            "skills": "Java, 安卓, 前端",
+            "github": "MXAM",
+            "qq": "765519741",
+            "portrait": "765519741.jpg"
+        },
+        {
+            "displayName": "Penguin.L",
+            "role": "成员",
+            "skills": "文档",
+            "github": "PenguinL",
+            "qq": "1770167998",
+            "portrait": "1770167998.jpg"
+        },
+        {
+            "displayName": "洛冷",
+            "role": "成员",
+            "skills": "PR, AE, PS",
+            "github": null,
+            "qq": "2923085363",
+            "portrait": "2923085363.jpg"
+        },
+        {
+            "displayName": "方程",
+            "role": "成员",
+            "skills": "C++, Unity, 平面设计",
+            "blog": "http://yorkin.cool/",
+            "github": "Yoorkin",
+            "qq": "1831305534",
+            "portrait": "1831305534.jpg"
+        },
+        {
+            "displayName": "狗",
+            "role": "成员",
+            "skills": "Arduino, Fusion360",
+            "github": null,
+            "qq": "1579569765",
+            "portrait": "1579569765.jpg"
+        },
+        {
+            "displayName": "AlvinLIQ",
+            "role": "成员",
+            "skills": "C++, Web, ASM",
+            "github": "Duronsoft",
+            "qq": "1962227646",
+            "portrait": "1962227646.jpg"
+        },
+        {
+            "displayName": "冰棍",
+            "role": "成员",
+            "skills": "C, Web",
+            "github": "SweetIceLolly",
+            "qq": "1257472418",
+            "portrait": "1257472418.jpg"
+        }
+    ],
+    "portraitBaseURL": "/TX/"
+}

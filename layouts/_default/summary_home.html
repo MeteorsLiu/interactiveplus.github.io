@@ -1,0 +1,11 @@
+{{- $params := .Params | merge .Site.Params.page -}}
+
+<article class="single summary" itemscope itemtype="http://schema.org/Article">
+
+
+    {{- /* Title */ -}}
+    <h2 class="single-title" itemprop="name headline">
+        <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+    </h2>
+
+</article>

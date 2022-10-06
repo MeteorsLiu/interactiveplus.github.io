@@ -1,0 +1,91 @@
+{{- define "content" -}}
+{{- $params := .Scratch.Get "params" -}}
+{{- $profile := .Site.Params.home.profile -}}
+{{- $posts := .Site.Params.home.posts -}}
+{{ $style := resources.Get "localscss/home.scss" | resources.ToCSS | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ $data := $.Site.Language.Lang | printf "/data/home.%s.json" | getJSON }}
+
+<div class="page home" {{ if ne $posts.enable false }} data-home="posts" {{ end }}>
+
+
+    <div class="home-profile">
+        <section id="hero" class="hero flex items-center">
+            <!-- 让未来，能成为你期待的样子 -->
+            <div class="hero-wrapper">
+                <div>
+                    <h1 data-aos="fade-up">{{ $profile.title | safeHTML }}</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="200">{{ $profile.subtitle | safeHTML }}</h2>
+                </div>
+                <div class="flex-1 flex-shrink-0 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="/img/homebg.svg" class="img-fluid mx-auto" alt="">
+                </div>
+            </div>
+            <div>
+                <span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                    <i class="iconfont icon-xiangxiajiantou newchevron"></i>
+                </span>
+            </div>
+        </section>
+
+
+        <section id="intro" class="section--intro">
+            <div class="section-container" data-aos="fade-up" data-aos-delay="500">
+                <header class="section-header">
+                    <h1 data-aos="fade-up" class="section-text-tittle ">{{ $data.section1Title | safeHTML }}</h1>
+                    <h2 data-aos="fade-up" class="section-text-little-tittle" data-aos-delay="200">{{
+                        $data.section1SubTitle
+                        | safeHTML }}</h2>
+                </header>
+            </div>
+
+        </section>
+
+        <section id="intro2" class="section--intro">
+            <div class="section-container" data-aos="fade-up" data-aos-delay="400">
+                <header class="section-header">
+                    <h1 data-aos="fade-up" class="section-text-tittle ">{{ $data.section2Title | safeHTML }}</h1>
+                    <h2 data-aos="fade-up" class="section-text-little-tittle" data-aos-delay="200">{{
+                        $data.section2SubTitle
+                        | safeHTML }}</h2>
+                </header>
+            </div>
+
+        </section>
+
+        <section id="blog" class="section--intro">
+            <div class="section-container" data-aos="fade-up" data-aos-delay="400">
+                <header class="section-header">
+                    <h1 data-aos="fade-up" class="section-text-tittle ">{{ $data.section3Title | safeHTML }}</h1>
+                    <!-- <h2 data-aos="fade-up" class="section-text-little-tittle" data-aos-delay="200">{{
+                        $data.section2SubTitle
+                        | safeHTML }}</h2> -->
+                </header>
+            {{- /* Posts */ -}}
+            {{- if ne $posts.enable false | and .Site.RegularPages -}}
+            {{- /* Paginate */ -}}
+            {{- $pages := where .Site.RegularPages "Type" "posts" -}}
+            {{- if .Site.Params.page.hiddenFromHomePage -}}
+            {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+            {{- else -}}
+            {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
+            {{- end -}}
+            {{- with $posts.paginate | default .Site.Params.paginate -}}
+            {{- $pages = $.Paginate $pages . -}}
+            {{- else -}}
+            {{- $pages = .Paginate $pages -}}
+            {{- end -}}
+            {{- range $pages.Pages -}}
+            {{- .Render "summary_home" -}}
+            {{- end -}}
+            {{- partial "paginator.html" . -}}
+            {{- end -}}
+        </div>
+        </section>
+
+    </div>
+
+
+</div>
+{{- end -}}

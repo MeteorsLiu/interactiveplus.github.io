@@ -1,0 +1,34 @@
+{{ $data := $.Site.Language.Lang | printf "/data/members.%s.json" | getJSON }}
+
+{{ $style := resources.Get "localscss/members.scss" | resources.ToCSS | resources.Fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" scoped>
+
+
+<div class="member-display">
+    <div class="member-display-wrapper">
+        {{ range $data.memberlist }}
+        {{ $src := $data.portraitBaseURL }}
+        {{ $name := .Name }}
+        <div class="item">
+
+            <img class="headpic" src={{ $data.portraitBaseURL }}{{ .portrait }} alt={{ .displayName }} />
+            <div class="info">
+                <h3 class="member-name">{{ .displayName }}</h3>
+                <div class="member-intro">{{ .role }}</div>
+                <div class="member-intro">{{ .skills }}</div>
+                <div class="member-icon">
+                    {{- if .github -}}
+                    {{- $url := printf "https://github.com/%v" .github -}}
+                    <a href={{ $url }} class="" target="_blank"><i class="fa-lg fa-brands fa-github"></i></a>
+                    {{- end -}}
+
+                    {{- if .qq -}}
+                    {{- $url := printf "tencent://message/?uin=%v" .qq -}}
+                    <a href={{ $url | safeURL }} class="ml-1" target="_blank"><i class="fa-lg fa-brands fa-qq"></i></a>
+                    {{- end -}}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
