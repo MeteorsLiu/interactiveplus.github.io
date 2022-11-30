@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>形随意动</title>
+        <link>https://www.interactiveplus.org//</link>
+        <description>Technology changes the future.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>All Rights Reserved</copyright><lastBuildDate>Thu, 30 Apr 2020 21:57:40 &#43;0800</lastBuildDate>
+            <atom:link href="https://www.interactiveplus.org//index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>应对Covid-19, 我们做了什么</title>
+    <link>https://www.interactiveplus.org//20200430covoid19/</link>
+    <pubDate>Thu, 30 Apr 2020 21:57:40 &#43;0800</pubDate>
+    <author>Zhe_Learn</author>
+    <guid>https://www.interactiveplus.org//20200430covoid19/</guid>
+    <description><![CDATA[随着这次新冠疫情的形势在全球范围内愈发严重，越来越多的人开始意识到这次疫情并非像2003年非典那样简单。同时，形随意动也在持续关注着这次疫情]]></description>
+</item>
+<item>
+    <title>形随意动2020招新指南</title>
+    <link>https://www.interactiveplus.org//20200130recruit/</link>
+    <pubDate>Thu, 30 Jan 2020 21:57:40 &#43;0800</pubDate>
+    <author>Windy</author>
+    <guid>https://www.interactiveplus.org//20200130recruit/</guid>
+    <description><![CDATA[招新简章 形随意动从2013年成立到如今已经有6个年头了, 在2020新年之际, 我们愿意以自己的热诚接待新人. 招新对于新成员和工作室是共赢的面:]]></description>
+</item>
+</channel>
+</rss>
