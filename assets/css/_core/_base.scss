@@ -12,6 +12,13 @@ html {
 
   scroll-behavior: smooth;
 
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+
   main [id] {
     scroll-margin-top: calc(var(--header-height) + .5rem);
   }
